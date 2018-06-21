@@ -1,17 +1,17 @@
 Package: com.i0ntpst.dropbear
-Version: 2016.74-1
+Version: 2016.74-2
 Priority: optional
 Section: Networking
 Maintainer: i0ntempest <szf1234@me.com>
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.dropbear_2016.74-1_iphoneos-arm.deb
-Size: 147382
-MD5sum: 78625ac2709b79ca77bbaed8c7f6f72b
-Description: A lightweight alternative to OpenSSH. ARM64 only.
-	Dropbear is a lightweight alternative to OpenSSH. Compiled for ARM64.
-	LaunchDaemon dropbear.plist added by me. It starts Dropbear on port 2222.
+Filename: ./Debs///com.i0ntpst.dropbear_2016.74-2_iphoneos-arm.deb
+Size: 185236
+MD5sum: 430527060c79b90b6cdd37ccc3b58ad8
+Description: Lightweight SSH server and client
+	Dropbear is a lightweight SSH server and client, an alternative to OpenSSH. This package is compiled for ARM64.
+	LaunchDaemon dropbear.plist added by me. It starts Dropbear on port 2222 when loaded.
 	I've also added dropbear-launcher script in /usr/bin for your convenience.
-	Executables are from early versions of Meridian jailbreak ipa, made by PsycoTea.
+	Executables are from Meridian Public Beta 5 ipa, made by PsycoTea.
 Name: Dropbear
 Author: Matt Johnston
 
