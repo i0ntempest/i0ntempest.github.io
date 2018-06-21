@@ -4,7 +4,7 @@ My Cydia repo that contains nothing useful<br />
 ## Current package list:
 ````
     Dropbear v2016.74
-    SSL Kill Switch 0.12
+    SSL Kill Switch v0.12
 ````
 More to be added
 ## Click this link:
