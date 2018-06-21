@@ -4,7 +4,7 @@ Priority: optional
 Section: Networking
 Maintainer: i0ntempest <szf1234@me.com>
 Architecture: iphoneos-arm
-Filename: ./Debs//dropbear_2016.74-1_iphoneos-arm.deb
+Filename: ./Debs///com.i0ntpst.dropbear_2016.74-1_iphoneos-arm.deb
 Size: 147382
 MD5sum: 78625ac2709b79ca77bbaed8c7f6f72b
 Description: A lightweight alternative to OpenSSH. ARM64 only.
