@@ -15,3 +15,17 @@ Description: Lightweight SSH server and client
 Name: Dropbear
 Author: Matt Johnston
 
+Package: com.nablac0d3.sslkillswitch2
+Version: 0.12-3+debug
+Section: Tweaks
+Maintainer: Alban Diquet <nabla.c0d3@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: ./Debs///com.nablac0d3.sslkillswitch2_0.12.deb
+Size: 8024
+Installed-Size: 128
+MD5sum: 3c655099f43337b5ef273e83dea7eb8f
+Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps.
+Name: SSL Kill Switch 2
+Author: Alban Diquet <nabla.c0d3@gmail.com>
+
