@@ -1,4 +1,4 @@
-# i0ntempest.github.io
+# i0nTempest's Cydia Repo
 My Cydia repo that contains nothing useful
 ## Current package list:
 ````
@@ -7,6 +7,6 @@ My Cydia repo that contains nothing useful
 ````
 More to be added
 ## Click this link:
-[[Add to Cydia|cydia://url/https://cydia.saurik.com/api/share#?source=https://i0ntempest.github.io/]
+[[Add to Cydia|cydia://url/https://cydia.saurik.com/api/share#?source=https://i0ntempest.github.io/]]
 ## Let The Bass Kick
 O-oooooooooo AAAAE-A-A-I-A-U- JO-oooooooooooo AAE-O-A-A-U-U-A- E-eee-ee-eee AAAAE-A-E-I-E-A- JO-ooo-oo-oo-oo EEEEO-A-AAA-AAAA 
