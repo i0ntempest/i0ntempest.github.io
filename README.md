@@ -1,5 +1,6 @@
 # i0nTempest's Cydia Repo
 My Cydia repo that contains nothing useful
+[Repo Icon](./CydiaIcon.png)
 ## Current package list:
 ````
     Dropbear v2016.74
