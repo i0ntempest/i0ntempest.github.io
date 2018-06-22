@@ -7,6 +7,7 @@ My Cydia repo that contains nothing useful<br />
     SSL Kill Switch v0.12
     libncurses5-32 v5.7
     ioreg v108,76
+    file v5.33
 ````
 More to be added
 ## Click this link:
