@@ -25,10 +25,10 @@ Conflicts: file
 Architecture: iphoneos-arm
 Filename: ./Debs///com.i0ntpst.file_5.33-1_iphoneos-arm.deb
 Size: 250302
-MD5sum: fe42aa2a54ac0626458eeafd72e87fc6
+MD5sum: c595d617ee45971912372f805924a039
 Description: guesses the type of a file from contents
 	Guesses the type of a file from contents.
-	Originally from Electra repo, repacked using Redeb
+	Originally from Electra repo, repacked using Redeb.
 Name: file
 
 Package: com.i0ntpst.ioreg
@@ -52,17 +52,17 @@ Name: ioreg
 Author: CoolStar, Jay Freeman (saurik)
 
 Package: com.i0ntpst.libncurses5-32
-Version: 5.7-1
+Version: 5.7-2
 Priority: important
 Section: System
 Maintainer: i0nTempest <szf1234@me.com>
 Depends: firmware(<=10.3.3)
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.libncurses5-32_5.7-1_iphoneos-arm.deb
-Size: 93848
-MD5sum: a180a8b3fc02060fd8c0309c31b350c6
+Filename: ./Debs///com.i0ntpst.libncurses5-32_5.7-2_iphoneos-arm.deb
+Size: 93832
+MD5sum: 4f2788a62fc2fc5b5bea196712f91c1d
 Description: Just the libncurses.5.dylib file from 32bit 5.7 version of New Curses
-	Compatible with iOS 10 and under.
+	Compatible with iOS 10 and earlier.
 	ioreg depends on New Curses (ncurses). If the 32bit version of ioreg in my repo doesn't work and you have New Curses installed, then you most likely have installed the 64bit version. Install this 32bit version and you should be fine. The 64bit version of ioreg should work if you have 64bit version of New Curses installed.
 	This package won't install if the file it contains already exists (/usr/lib/libncurses.5.dylib). In this case you should already have the 32bit version installed.
 Name: libncurses5 (32bit library only)
