@@ -15,6 +15,43 @@ Description: Lightweight SSH server and client
 Name: Dropbear
 Author: Matt Johnston
 
+Package: com.i0ntpst.ioreg
+Version: 108,76-1
+Priority: important
+Section: Administration
+Maintainer: i0nTempest <szf1234@me.com>
+Pre-Depends: darwintools, coreutils-bin
+Depends: ncurses, firmware(>=7.0), firmware(<<12.0)
+Architecture: iphoneos-arm
+Filename: ./Debs///com.i0ntpst.ioreg_108,76-1_iphoneos-arm.deb
+Size: 22374
+MD5sum: c8469a4cba20286e4de68d244b900f6d
+Description: Just the ioreg command from the IOKit Tools
+	ioreg is missing from the IOKit package in the Electra repo. This package adds it back.
+	For people using iOS 10 but have IOKit from Electra repo installed, this package can be very useful.
+	This package contains both 32bit and 64 bit version of ioreg, and will automatically install the right version based on your iOS version and CPU architecture.
+	If the 32bit version complains that libncurses.5.dylib is not loaded and you're on iOS 10 or earlier, try installing libncurses in my repo.
+	This package won't install if the file it contains already exists (/usr/bin/ioreg and /user/bin/ioreg64).
+Name: ioreg
+Author: CoolStar, Jay Freeman (saurik)
+
+Package: com.i0ntpst.libncurses5-32
+Version: 5.7-1
+Priority: important
+Section: System
+Maintainer: i0nTempest <szf1234@me.com>
+Depends: firmware(<=10.3.3)
+Architecture: iphoneos-arm
+Filename: ./Debs///com.i0ntpst.libncurses5-32_5.7-1_iphoneos-arm.deb
+Size: 93848
+MD5sum: a180a8b3fc02060fd8c0309c31b350c6
+Description: Just the libncurses.5.dylib file from 32bit 5.7 version of New Curses
+	Compatible with iOS 10 and under.
+	ioreg depends on New Curses (ncurses). If the 32bit version of ioreg in my repo doesn't work and you have New Curses installed, then you most likely have installed the 64bit version. Install this 32bit version and you should be fine. The 64bit version of ioreg should work if you have 64bit version of New Curses installed.
+	This package won't install if the file it contains already exists (/usr/lib/libncurses.5.dylib). In this case you should already have the 32bit version installed.
+Name: libncurses5 (32bit library only)
+Author: Jay Freeman (saurik)
+
 Package: com.nablac0d3.sslkillswitch2
 Version: 0.12-3+debug
 Section: Tweaks
