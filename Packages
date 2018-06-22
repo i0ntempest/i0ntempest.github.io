@@ -16,22 +16,22 @@ Name: Dropbear
 Author: Matt Johnston
 
 Package: com.i0ntpst.ioreg
-Version: 108,76-1
+Version: 108,76-2
 Priority: important
 Section: Administration
 Maintainer: i0nTempest <szf1234@me.com>
 Pre-Depends: darwintools, coreutils-bin
 Depends: ncurses, firmware(>=7.0), firmware(<<12.0)
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.ioreg_108,76-1_iphoneos-arm.deb
-Size: 22374
-MD5sum: c8469a4cba20286e4de68d244b900f6d
+Filename: ./Debs///com.i0ntpst.ioreg_108,76-2_iphoneos-arm.deb
+Size: 22376
+MD5sum: c0a20c092107158a76dfaef7d296d973
 Description: Just the ioreg command from the IOKit Tools
 	ioreg is missing from the IOKit package in the Electra repo. This package adds it back.
 	For people using iOS 10 but have IOKit from Electra repo installed, this package can be very useful.
 	This package contains both 32bit and 64 bit version of ioreg, and will automatically install the right version based on your iOS version and CPU architecture.
 	If the 32bit version complains that libncurses.5.dylib is not loaded and you're on iOS 10 or earlier, try installing libncurses in my repo.
-	This package won't install if the file it contains already exists (/usr/bin/ioreg and /user/bin/ioreg64).
+	This package won't install if the file it contains already exists (/usr/sbin/ioreg and /user/sbin/ioreg64).
 Name: ioreg
 Author: CoolStar, Jay Freeman (saurik)
 
