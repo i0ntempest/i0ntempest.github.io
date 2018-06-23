@@ -68,6 +68,27 @@ Description: Just the libncurses.5.dylib file from 32bit 5.7 version of New Curs
 Name: libncurses5 (32bit library only)
 Author: Jay Freeman (saurik)
 
+Package: com.i0ntpst.mtermext
+Version: 1.0-1
+Section: Addons
+Maintainer: i0nTempest <szf1234@me.com>
+Depends: com.officialscheduler.mterminal
+Replaces: com.officialscheduler.mterminal
+Architecture: iphoneos-arm
+Filename: ./Debs///com.i0ntpst.mtermext_1.0-1_iphoneos-arm.deb
+Size: 15644
+MD5sum: b22e8954a2d328eea8b13e497d4f890b
+Description: Makes MTerminal sounds and looks better, especially on iPad Pro 12.9
+	Makes MTerminal sounds and looks better, especially on iPad Pro 12.9.
+	This package does 3 things:
+	- Replaces the bell sound in MTerminal with the funk sound found in macOS
+	- Replaces Info.plist to allow Landscape mode on iPad
+	- Adds LaunchScreen storyboard to avoid a stretched icon being showed when launching, when some tweaks are enabled (like PerfectFit).
+	All files this package replaces will be backed up.
+	If you're using an iPad Pro, full size keyboard can be force enabled by using PerfitFit. It stretches the app to fit the screen on whatever device you have.
+Name: MTerminal Extensions
+Author: i0nTempest <szf1234@me.com>
+
 Package: com.nablac0d3.sslkillswitch2
 Version: 0.12-3+debug
 Section: Tweaks

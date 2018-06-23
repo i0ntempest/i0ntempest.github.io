@@ -8,6 +8,7 @@ My Cydia repo that contains nothing useful<br />
     libncurses5-32 v5.7
     ioreg v108,76
     file v5.33
+    MTerminal Extensions v1.0
 ````
 More to be added
 ## Click this link:
