@@ -69,15 +69,16 @@ Name: libncurses5 (32bit library only)
 Author: Jay Freeman (saurik)
 
 Package: com.i0ntpst.mtermext
-Version: 1.0-1
+Version: 1.0-2
 Section: Addons
 Maintainer: i0nTempest <szf1234@me.com>
+Pre-Depends: com.officialscheduler.mterminal
 Depends: com.officialscheduler.mterminal
 Replaces: com.officialscheduler.mterminal
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.mtermext_1.0-1_iphoneos-arm.deb
-Size: 15644
-MD5sum: b22e8954a2d328eea8b13e497d4f890b
+Filename: ./Debs///com.i0ntpst.mtermext_1.0-2_iphoneos-arm.deb
+Size: 15630
+MD5sum: 98f9323677be5d10938aa278019a7606
 Description: Makes MTerminal sounds and looks better, especially on iPad Pro 12.9
 	Makes MTerminal sounds and looks better, especially on iPad Pro 12.9.
 	This package does 3 things:
