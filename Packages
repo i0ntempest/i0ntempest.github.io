@@ -90,6 +90,24 @@ Description: Makes MTerminal sounds and looks better, especially on iPad Pro 12.
 Name: MTerminal Extensions
 Author: i0nTempest <szf1234@me.com>
 
+Package: com.i0ntpst.rasticrac
+Version: 3.3.6-1
+Priority: optional
+Section: Utilities
+Maintainer: i0nTempest <szf1234@me.com>
+Pre-Depends: firmware (>= 4.0), org.coolstar.cctools
+Depends: com.ericasadun.utilities, zip, gawk, adv-cmds, ldid, coreutils, org.coolstar.cctools
+Architecture: iphoneos-arm
+Filename: ./Debs///com.i0ntpst.rasticrac_3.3.6-1_iphoneos-arm.deb
+Size: 39914
+MD5sum: 640f7c2f47b5a86cde4d12df505790d2
+Description: iOS cracking script. Formerly known as poedcrackmod.
+	iOS cracking script. Formerly known as poedcrackmod.
+	Executable name: /usr/bin/rasticrac
+	NOTE: /var/root must have 755 permission in order to use this script, and you have to be root. sudo WON'T work.
+Name: Rasticrac
+Author: iRastignac
+
 Package: com.nablac0d3.sslkillswitch2
 Version: 0.12-3+debug
 Section: Tweaks
