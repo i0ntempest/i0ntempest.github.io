@@ -9,7 +9,7 @@ My Cydia repo that contains nothing useful<br />
     ioreg v108,76
     file v5.33
     MTerminal Extensions v1.0
-    Rasticrac v3.6.6
+    Rasticrac v3.3.6
 ````
 More to be added
 ## Click this link:
