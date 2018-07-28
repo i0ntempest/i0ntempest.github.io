@@ -1,12 +1,12 @@
 Package: com.i0ntpst.dropbear
-Version: 2016.74-4
+Version: 2016.74-5
 Priority: optional
 Section: Networking
 Maintainer: i0nTempest <szf1234@me.com>
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.dropbear_2016.74-4_iphoneos-arm.deb
-Size: 185158
-MD5sum: 2df6fa4c02e2e07d0842885263fdb9e9
+Filename: ./Debs///com.i0ntpst.dropbear_2016.74-5_iphoneos-arm.deb
+Size: 185216
+MD5sum: 0a3c396caf1a10cbe1c9fcd0bb5d8214
 Description: Lightweight SSH server and client
 	Dropbear is a lightweight SSH server and client, an alternative to OpenSSH. This package is compiled for ARM64.
 	LaunchDaemon plist file added by me. It starts Dropbear on port 2222 when loaded.
