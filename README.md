@@ -14,8 +14,7 @@ My Cydia repo that contains nothing useful<br />
 ````
 More to be added<br />
 All packages are built and confirmed to work on iOS 10.3.2<br />
-Most of the packages should also work on iOS 11 unless stated in package 
-description
+Most of the packages should also work on iOS 11 unless stated in package description
 ## Click this link:
 [Add to Cydia](cydia://url/https://cydia.saurik.com/api/share#?source=https://i0ntempest.github.io/)
 ## Let The Bass Kick
