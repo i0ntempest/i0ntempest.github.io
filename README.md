@@ -12,7 +12,8 @@ My Cydia repo that contains nothing useful<br />
     Rasticrac v3.3.6
     say 0.0.2
 ````
-More to be added
+More to be added<br />
+All packages are built and confirmed to work on iOS 10.3.2
 ## Click this link:
 [Add to Cydia](cydia://url/https://cydia.saurik.com/api/share#?source=https://i0ntempest.github.io/)
 ## Let The Bass Kick
