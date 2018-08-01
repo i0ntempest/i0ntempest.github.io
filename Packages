@@ -108,6 +108,22 @@ Description: iOS cracking script. Formerly known as poedcrackmod.
 Name: Rasticrac
 Author: iRastignac
 
+Package: com.i0ntpst.say
+Version: 0.0.2-1
+Section: System
+Maintainer: i0nTempest <szf1234@me.com>
+Depends: 
+Architecture: iphoneos-arm
+Filename: ./Debs///com.i0ntpst.say_0.0.2-1_iphoneos-arm.deb
+Size: 7122
+Installed-Size: 252
+MD5sum: dae1281961296b29dfbba9e1c3b9fa88
+Description: "say" command for iOS devices. Make Siri speak anything you want from command line. iOS 7-11. Usage: say "your text here" (Must use quotes when message has spaces)
+	"say" command for iOS devices. Make Siri speak anything you want from command line. iOS 7-11. Usage: say "your text here" (Must use quotes when message has spaces)
+	Repacked by me to solve the conflict with Erica Utilities.
+Name: say
+Author: Jake James
+
 Package: com.nablac0d3.sslkillswitch2
 Version: 0.12-3+debug
 Section: Tweaks
