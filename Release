@@ -6,6 +6,5 @@ Codename: i0ntpst
 Architectures: iphoneos-arm
 Components: main
 Description:
-	All packages are built and confirmed to work on iOS 10.3.2, most of the packages should also work on iOS 11 unless stated in package 
-description.
+	All packages are built and confirmed to work on iOS 10.3.2, most of the packages should also work on iOS 11 unless stated in package description.
 	Let The Bass Kick O-oooooooooo AAAAE-A-A-I-A-U- JO-oooooooooooo AAE-O-A-A-U-U-A- E-eee-ee-eee AAAAE-A-E-I-E-A- JO-ooo-oo-oo-oo EEEEO-A-AAA-AAAA
