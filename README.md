@@ -5,8 +5,8 @@ My Cydia repo that contains nothing useful<br />
 ````
     Dropbear v2016.74
     SSL Kill Switch v0.12
-    libncurses5-32 v5.7
-    ioreg v76-3
+    libncurses5 (32bit library only) v5.7
+    ioreg (32bit only) v76-3
     file v5.33
     MTerminal Extensions v1.0
     Rasticrac v3.3.6
