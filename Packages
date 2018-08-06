@@ -16,15 +16,15 @@ Name: Dropbear
 Author: Matt Johnston
 
 Package: com.i0ntpst.dyarczeppelinicon
-Version: 1.0-1
+Version: 1.0-2
 Priority: extra
 Section: Addons (Zeppelin)
 Maintainer: i0nTempest <szf1234@me.com>
 Depends: com.alexzielenski.zeppelin
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.dyarczeppelinicon_1.0-1_iphoneos-arm.deb
-Size: 11088
-MD5sum: 467b2c716519e0c93c50a0248612ff0e
+Filename: ./Debs///com.i0ntpst.dyarczeppelinicon_1.0-2_iphoneos-arm.deb
+Size: 11244
+MD5sum: 81b66c65eba9970c294e6e5968f2cda6
 Description: Replace your carrier with Dynamix or Arcaea logo!
 Name: Dynamix & Arcaea Zeppelin Icon Pack
 Author: i0nTempest <szf1234@me.com>
@@ -46,16 +46,16 @@ Description: guesses the type of a file from contents
 Name: file
 
 Package: com.i0ntpst.ioreg-32
-Version: 76-3
+Version: 76-4
 Priority: important
 Section: Administration
 Maintainer: i0nTempest <szf1234@me.com>
 Pre-Depends: darwintools, coreutils-bin
 Depends: ncurses, firmware(>=7.0), firmware(<<11.0)
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.ioreg-32_76-3_iphoneos-arm.deb
-Size: 10550
-MD5sum: fec8173d5a36a42e9fad9a38c125176a
+Filename: ./Debs///com.i0ntpst.ioreg-32_76-4_iphoneos-arm.deb
+Size: 10250
+MD5sum: a2254d97f37771885536b750cd4a6256
 Description: Just the ioreg command from the IOKit Tools. 32BIT ONLY.
 	THIS PACKAGE IS 32BIT ONLY
 	ioreg is missing from the IOKit package in the Electra repo. This package adds it back.
