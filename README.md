@@ -6,15 +6,16 @@ My Cydia repo that contains nothing useful<br />
     Dropbear v2016.74
     SSL Kill Switch v0.12
     libncurses5-32 v5.7
-    ioreg v108,76
+    ioreg v76-1
     file v5.33
     MTerminal Extensions v1.0
     Rasticrac v3.3.6
     say 0.0.2
+    Dynamix & Arcaea Zeppelin Icon Pack 1.0
 ````
 More to be added<br />
-All packages are built and confirmed to work on iOS 10.3.2<br />
-Most of the packages should also work on iOS 11 unless stated in package description
+All packages are built with LZMA compression therefore can be installed on iOS 10-11.<br />
+Packages will work on iOS 10.x and 11.x unless explicitly stated in package description.
 ## Click this link:
 [Add to Cydia](cydia://url/https://cydia.saurik.com/api/share#?source=https://i0ntempest.github.io/)
 ## Let The Bass Kick
