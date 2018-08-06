@@ -15,6 +15,20 @@ Description: Lightweight SSH server and client
 Name: Dropbear
 Author: Matt Johnston
 
+Package: com.i0ntpst.dyarczeppelinicon
+Version: 1.0-1
+Priority: extra
+Section: Addons (Zeppelin)
+Maintainer: i0nTempest <szf1234@me.com>
+Depends: com.alexzielenski.zeppelin
+Architecture: iphoneos-arm
+Filename: ./Debs///com.i0ntpst.dyarczeppelinicon_1.0-1_iphoneos-arm.deb
+Size: 11088
+MD5sum: 467b2c716519e0c93c50a0248612ff0e
+Description: Replace your carrier with Dynamix or Arcaea logo!
+Name: Dynamix & Arcaea Zeppelin Icon Pack
+Author: i0nTempest <szf1234@me.com>
+
 Package: com.i0ntpst.file
 Version: 5.33-1
 Priority: important
