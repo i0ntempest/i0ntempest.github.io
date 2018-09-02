@@ -12,6 +12,7 @@ My Cydia repo that contains nothing useful<br />
     Rasticrac v3.3.6
     say 0.0.2
     Dynamix & Arcaea Zeppelin Icon Pack 1.0
+    plutil v0.0.3
 ````
 More to be added<br />
 All packages are built with LZMA compression therefore can be installed on iOS 10-11.<br />
