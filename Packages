@@ -104,17 +104,16 @@ Name: MTerminal Extensions
 Author: i0nTempest <szf1234@me.com>
 
 Package: com.i0ntpst.plutil
-Version: 0.0.3
+Version: 0.0.3-1
 Section: System
 Maintainer: i0nTempest <szf1234@me.com>
 Depends: firmware (>=2.0)
 Provides: com.bingner.plutil
 Replaces: com.ericasadun.utilities
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.plutil_0.0.3_iphoneos-arm.deb
-Size: 46390
-Installed-Size: 252
-MD5sum: a9776b439b21843760efe39e3892320c
+Filename: ./Debs///com.i0ntpst.plutil_0.0.3-1_iphoneos-arm.deb
+Size: 46376
+MD5sum: 1ff448f5f24cf7d88aa0aaf57126022f
 Description: plutil as from erica sadun
     plutil as from erica sadun
     Repackaged to ‘Replaces’ Erica Utilities, not ‘Conflicts’. Original package is from Bingner’s repo.
