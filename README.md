@@ -10,8 +10,8 @@ My Cydia repo that contains nothing useful<br />
     file v5.33
     MTerminal Extensions v1.0
     Rasticrac v3.3.6
-    say 0.0.2
-    Dynamix & Arcaea Zeppelin Icon Pack 1.0
+    say v0.0.2
+    Dynamix & Arcaea Zeppelin Icon Pack v1.0
     plutil v0.0.3
 ````
 More to be added<br />
