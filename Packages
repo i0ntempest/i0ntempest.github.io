@@ -82,16 +82,16 @@ Name: libncurses5 (32bit library only)
 Author: Jay Freeman (saurik)
 
 Package: com.i0ntpst.mtermext
-Version: 1.0-2
+Version: 1.0-3
 Section: Addons
 Maintainer: i0nTempest <szf1234@me.com>
-Pre-Depends: com.officialscheduler.mterminal
-Depends: com.officialscheduler.mterminal
-Replaces: com.officialscheduler.mterminal
+Pre-Depends: com.officialscheduler.mterminal | mterminal
+Depends: com.officialscheduler.mterminal | mterminal
+Replaces: com.officialscheduler.mterminal, mterminal
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.mtermext_1.0-2_iphoneos-arm.deb
-Size: 15630
-MD5sum: 98f9323677be5d10938aa278019a7606
+Filename: ./Debs///com.i0ntpst.mtermext_1.0-3_iphoneos-arm.deb
+Size: 15680
+MD5sum: 0b247e6ba80831df7316d680277d1045
 Description: Makes MTerminal sounds and looks better, especially on iPad Pro 12.9
 	Makes MTerminal sounds and looks better, especially on iPad Pro 12.9.
 	This package does 3 things:
@@ -99,7 +99,7 @@ Description: Makes MTerminal sounds and looks better, especially on iPad Pro 12.
 	- Replaces Info.plist to allow Landscape mode on iPad
 	- Adds LaunchScreen storyboard to avoid a stretched icon being showed when launching, when some tweaks are enabled (like PerfectFit).
 	All files this package replaces will be backed up.
-	If you're using an iPad Pro, full size keyboard can be force enabled by using PerfitFit. It stretches the app to fit the screen on whatever device you have.
+	If you're using an iPad Pro 12.9, full size keyboard can be force enabled by using PerfitFit. It stretches the app to fit the screen on whatever device you have.
 Name: MTerminal Extensions
 Author: i0nTempest <szf1234@me.com>
 
