@@ -64,6 +64,24 @@ Description: Just the ioreg command from the IOKit Tools. 32BIT ONLY.
 Name: ioreg (32bit only)
 Author: Jay Freeman (saurik)
 
+Package: com.i0ntpst.libmbedtls
+Version: 2.15.1-1
+Priority: optional
+Section: Development
+Maintainer: i0nTempest <szf1234@me.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Architecture: iphoneos-arm
+Filename: ./Debs///com.i0ntpst.libmbedtls_2.15.1-1_iphoneos-arm.deb
+Size: 3223598
+MD5sum: 251e85003c7189db50d543ce3182ac76
+Description: An open source, portable, easy to use, readable and flexible SSL library
+	An open source, portable, easy to use, readable and flexible SSL library.
+	Compiled for armv7, armv7s, and arm64 architectures.
+	Only libmbedcrypto has been converted in to dylib. The other two static libraries refuse to convert and I don't know what I did wrong.
+Name: libmbedtls
+Author: ARMmbed
+Homepage: https://tls.mbed.org/
+
 Package: com.i0ntpst.libncurses5-32
 Version: 5.7-2
 Priority: important
@@ -120,24 +138,6 @@ Description: plutil as from erica sadun
 Name: plutil
 Author: Samuel Bingner
 
-Package: com.i0ntpst.rasticrac
-Version: 3.3.6-1
-Priority: optional
-Section: Utilities
-Maintainer: i0nTempest <szf1234@me.com>
-Pre-Depends: firmware (>= 4.0), org.coolstar.cctools
-Depends: com.ericasadun.utilities, zip, gawk, adv-cmds, ldid, coreutils, org.coolstar.cctools
-Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.rasticrac_3.3.6-1_iphoneos-arm.deb
-Size: 39914
-MD5sum: 640f7c2f47b5a86cde4d12df505790d2
-Description: iOS cracking script. Formerly known as poedcrackmod.
-	iOS cracking script. Formerly known as poedcrackmod.
-	Executable name: /usr/bin/rasticrac
-	NOTE: /var/root must have 755 permission in order to use this script, and you have to be root. sudo WON'T work.
-Name: Rasticrac
-Author: iRastignac
-
 Package: com.i0ntpst.say
 Version: 0.0.2-1
 Section: System
@@ -153,6 +153,34 @@ Description: "say" command for iOS devices. Make Siri speak anything you want fr
 	Repacked by me to solve the conflict with Erica Utilities.
 Name: say
 Author: Jake James
+
+Package: com.i0ntpst.tty-clock
+Version: 2.3-1
+Section: Terminal Support
+Maintainer: i0nTempest <szf1234@me.com>
+Depends: ncurses
+Architecture: iphoneos-arm
+Filename: ./Debs///com.i0ntpst.tty-clock_2.3-1_iphoneos-arm.deb
+Size: 7590
+MD5sum: 78fe754c1677b010adb6a21f959ad403
+Description: A command-line clock program based on libncurses.
+	A command-line clock program based on libncurses. Compiled for arm64 only.
+Name: tty-clock
+Author: Martin Duquesnoy <xorg62@gmail.com>
+
+Package: com.i0ntpst.ttytimer
+Version: 0.1-1
+Section: Terminal Support
+Maintainer: i0nTempest <szf1234@me.com>
+Depends: ncurses
+Architecture: iphoneos-arm
+Filename: ./Debs///com.i0ntpst.ttytimer_0.1-1_iphoneos-arm.deb
+Size: 6984
+MD5sum: 3ecae8976e7c5ec48d15cc7bd9eef601
+Description: ncurses countdown timer based on xorg62's tty-clock.
+	ncurses countdown timer based on xorg62's tty-clock. Compiled for arm64 only.
+Name: ttytimer
+Author: Mohammad Barbar
 
 Package: com.nablac0d3.sslkillswitch2
 Version: 0.12-3+debug
