@@ -1,12 +1,12 @@
 Package: com.i0ntpst.dropbear
-Version: 2018.76-1
+Version: 2018.76-2
 Priority: optional
 Section: Networking
 Maintainer: i0nTempest <szf1234@me.com>
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.dropbear_2018.76-1_iphoneos-arm.deb
-Size: 145042
-MD5sum: 0a8539a0e40dd990d485a34aba31e18a
+Filename: ./Debs///com.i0ntpst.dropbear_2018.76-2_iphoneos-arm.deb
+Size: 145050
+MD5sum: e0749fa5e249e62ff68718477355389f
 Description: Lightweight SSH server and client
 	Dropbear is a lightweight SSH server and client, an alternative to OpenSSH. This package is compiled for arm64.
 	Improved from MCApollo's version to allow install 'n' use:
@@ -14,6 +14,7 @@ Description: Lightweight SSH server and client
 	- dropbear-launcher script in /usr/bin that does the same as the LaunchDaemon plist file.
 Name: Dropbear
 Author: Matt Johnston
+Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
 
 Package: com.i0ntpst.dyarczeppelinicon
 Version: 1.0-2
