@@ -3,10 +3,10 @@ My Cydia repo that contains nothing useful<br />
 ![Repo Icon](./ReadmeIcon.png)
 ## Current package list:
 ````
-    Dropbear v2016.74
+    Dropbear v2018.76
     SSL Kill Switch v0.12
     libncurses5 (32bit library only) v5.7
-    ioreg (32bit only) v76-3
+    ioreg (32bit only) v76
     file v5.33
     MTerminal Extensions v1.0
     say v0.0.2
