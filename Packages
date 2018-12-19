@@ -1,13 +1,13 @@
 Package: com.i0ntpst.dropbear
-Version: 2018.76-6
+Version: 2018.76-7
 Priority: optional
 Section: Networking
 Maintainer: i0nTempest <szf1234@me.com>
 Depends: dpkg, cy+cpu.arm64
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.dropbear_2018.76-6_iphoneos-arm.deb
-Size: 152684
-MD5sum: 8e7266abbe0c809814168cc3683a520a
+Filename: ./Debs///com.i0ntpst.dropbear_2018.76-7_iphoneos-arm.deb
+Size: 378382
+MD5sum: 10ed3fa2c3a2699df3e78916a472af22
 Description: Lightweight SSH server and client
 	Dropbear is a lightweight SSH server and client, an alternative to OpenSSH. This package is compiled for arm64.
 	Improved from MCApollo's version to allow install 'n' use:
@@ -18,6 +18,7 @@ Description: Lightweight SSH server and client
 Name: Dropbear
 Author: Matt Johnston
 Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
+Tag: purpose::console, purpose::daemon, role::enduser
 
 Package: com.i0ntpst.dyarczeppelinicon
 Version: 1.0-2
@@ -48,6 +49,7 @@ Description: guesses the type of a file from contents
 	Guesses the type of a file from contents.
 	Originally from Electra repo, repacked using Redeb.
 Name: file
+Tag: purpose::console, role::hacker
 
 Package: com.i0ntpst.ioreg-32
 Version: 76-4
@@ -67,6 +69,7 @@ Description: Just the ioreg command from the IOKit Tools. 32BIT ONLY.
 	If ioreg complains that libncurses.5.dylib is not loaded and you're on iOS 10 or earlier, try installing libncurses in my repo.
 Name: ioreg (32bit only)
 Author: Jay Freeman (saurik)
+Tag: purpose::console, role::hacker
 
 Package: com.i0ntpst.libmbedtls
 Version: 2.15.1-2
@@ -85,6 +88,7 @@ Description: An open source, portable, easy to use, readable and flexible SSL li
 Name: libmbedtls
 Author: ARMmbed
 Homepage: https://tls.mbed.org/
+Tag: purpose::library
 
 Package: com.i0ntpst.libncurses5-32
 Version: 5.7-2
@@ -124,6 +128,7 @@ Description: Makes MTerminal sounds and looks better, especially on iPad Pro 12.
 	If you're using an iPad Pro 12.9, full size keyboard can be force enabled by using PerfitFit. It stretches the app to fit the screen on whatever device you have.
 Name: MTerminal Extensions
 Author: i0nTempest <szf1234@me.com>
+Tag: purpose::extension
 
 Package: com.i0ntpst.plutil
 Version: 0.0.3-2
@@ -141,6 +146,7 @@ Description: plutil as from erica sadun
 	Repackaged to 'Replaces' Erica Utilities, not 'Conflicts'. Original package is from Bingner's repo.
 Name: plutil
 Author: Samuel Bingner
+Tag: role::hacker
 
 Package: com.i0ntpst.say
 Version: 0.0.2-1
@@ -157,6 +163,7 @@ Description: "say" command for iOS devices. Make Siri speak anything you want fr
 	Repacked by me to solve the conflict with Erica Utilities.
 Name: say
 Author: Jake James
+Tag: role::hacker
 
 Package: com.i0ntpst.tty-clock
 Version: 2.3-1
@@ -171,6 +178,7 @@ Description: A command-line clock program based on libncurses.
 	A command-line clock program based on libncurses. Compiled for arm64 only.
 Name: tty-clock
 Author: Martin Duquesnoy <xorg62@gmail.com>
+Tag: purpose::console
 
 Package: com.i0ntpst.ttytimer
 Version: 0.1-1
@@ -185,6 +193,7 @@ Description: ncurses countdown timer based on xorg62's tty-clock.
 	ncurses countdown timer based on xorg62's tty-clock. Compiled for arm64 only.
 Name: ttytimer
 Author: Mohammad Barbar
+Tag: purpose::console
 
 Package: com.nablac0d3.sslkillswitch2
 Version: 0.12-3+debug
