@@ -1,13 +1,13 @@
 Package: com.i0ntpst.dropbear
-Version: 2018.76-5
+Version: 2018.76-6
 Priority: optional
 Section: Networking
 Maintainer: i0nTempest <szf1234@me.com>
 Depends: dpkg, cy+cpu.arm64
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.dropbear_2018.76-5_iphoneos-arm.deb
-Size: 152442
-MD5sum: ad98b2d4e9d4c9a1480e8e92a0947579
+Filename: ./Debs///com.i0ntpst.dropbear_2018.76-6_iphoneos-arm.deb
+Size: 152684
+MD5sum: 8e7266abbe0c809814168cc3683a520a
 Description: Lightweight SSH server and client
 	Dropbear is a lightweight SSH server and client, an alternative to OpenSSH. This package is compiled for arm64.
 	Improved from MCApollo's version to allow install 'n' use:
@@ -69,15 +69,15 @@ Name: ioreg (32bit only)
 Author: Jay Freeman (saurik)
 
 Package: com.i0ntpst.libmbedtls
-Version: 2.15.1-1
+Version: 2.15.1-2
 Priority: optional
 Section: Development
 Maintainer: i0nTempest <szf1234@me.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.libmbedtls_2.15.1-1_iphoneos-arm.deb
-Size: 3223598
-MD5sum: 251e85003c7189db50d543ce3182ac76
+Filename: ./Debs///com.i0ntpst.libmbedtls_2.15.1-2_iphoneos-arm.deb
+Size: 3354556
+MD5sum: a38ed8ebf693249fdc7cd80be9b00832
 Description: An open source, portable, easy to use, readable and flexible SSL library
 	An open source, portable, easy to use, readable and flexible SSL library.
 	Compiled for armv7, armv7s, and arm64 architectures.
@@ -165,8 +165,8 @@ Maintainer: i0nTempest <szf1234@me.com>
 Depends: ncurses
 Architecture: iphoneos-arm
 Filename: ./Debs///com.i0ntpst.tty-clock_2.3-1_iphoneos-arm.deb
-Size: 7590
-MD5sum: 78fe754c1677b010adb6a21f959ad403
+Size: 7592
+MD5sum: 90bab5b38ede9c9bb257278ca753c1a1
 Description: A command-line clock program based on libncurses.
 	A command-line clock program based on libncurses. Compiled for arm64 only.
 Name: tty-clock
@@ -179,8 +179,8 @@ Maintainer: i0nTempest <szf1234@me.com>
 Depends: ncurses
 Architecture: iphoneos-arm
 Filename: ./Debs///com.i0ntpst.ttytimer_0.1-1_iphoneos-arm.deb
-Size: 6984
-MD5sum: 3ecae8976e7c5ec48d15cc7bd9eef601
+Size: 6994
+MD5sum: c613da2409ce3b45596d91b5667f4946
 Description: ncurses countdown timer based on xorg62's tty-clock.
 	ncurses countdown timer based on xorg62's tty-clock. Compiled for arm64 only.
 Name: ttytimer
