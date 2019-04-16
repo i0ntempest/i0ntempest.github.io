@@ -1,16 +1,16 @@
 Package: com.i0ntpst.dropbear
-Version: 2018.76-7
+Version: 2019.78-1
 Priority: optional
 Section: Networking
 Maintainer: i0nTempest <szf1234@me.com>
-Depends: dpkg, cy+cpu.arm64
+Depends: dpkg
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.dropbear_2018.76-7_iphoneos-arm.deb
-Size: 378382
-MD5sum: 10ed3fa2c3a2699df3e78916a472af22
+Filename: ./Debs///com.i0ntpst.dropbear_2019.78-1_iphoneos-arm.deb
+Size: 329006
+MD5sum: 394fde1a73237c5eab4d9d160d89027a
 Description: Lightweight SSH server and client
-	Dropbear is a lightweight SSH server and client, an alternative to OpenSSH. This package is compiled for arm64.
-	Improved from MCApollo's version to allow install 'n' use:
+	Dropbear is a lightweight SSH server and client, an alternative to OpenSSH. This package is compiled for armv7, armv7s, and arm64.
+	This version is configured so you can install 'n' use:
 	- Added LaunchDaemon plist file, it will be loaded during installation and on boot to start Dropbear on port 2222.
 	- dropbear-launcher script in /usr/bin that does the same as the LaunchDaemon plist file.
 	- Login as root is disabled by default. Remove the "-w" option to enable it.
@@ -72,15 +72,15 @@ Author: Jay Freeman (saurik)
 Tag: purpose::console, role::hacker
 
 Package: com.i0ntpst.libmbedtls
-Version: 2.15.1-2
+Version: 2.16.1-1
 Priority: optional
 Section: Development
 Maintainer: i0nTempest <szf1234@me.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.libmbedtls_2.15.1-2_iphoneos-arm.deb
-Size: 3354556
-MD5sum: a38ed8ebf693249fdc7cd80be9b00832
+Filename: ./Debs///com.i0ntpst.libmbedtls_2.16.1-1_iphoneos-arm.deb
+Size: 2905156
+MD5sum: c3d7644c32767874c1a4abcd7309e866
 Description: An open source, portable, easy to use, readable and flexible SSL library
 	An open source, portable, easy to use, readable and flexible SSL library.
 	Compiled for armv7, armv7s, and arm64 architectures.

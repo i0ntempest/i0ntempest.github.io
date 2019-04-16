@@ -3,7 +3,7 @@ My Cydia repo that contains nothing useful<br />
 ![Repo Icon](./ReadmeIcon.png)
 ## Current package list:
 ````
-    Dropbear v2018.76
+    Dropbear v2019.78
     SSL Kill Switch v0.12
     libncurses5 (32bit library only) v5.7
     ioreg (32bit only) v76
@@ -14,7 +14,7 @@ My Cydia repo that contains nothing useful<br />
     plutil v0.0.3
     tty-clock v2.3
     ttytimer v0.1
-    libmbedtls v2.15.1
+    libmbedtls v2.16.1
 ````
 More to be added<br />
 All packages are built with LZMA compression therefore can be installed on iOS 10-11.<br />
