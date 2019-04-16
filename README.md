@@ -17,8 +17,8 @@ My Cydia repo that contains nothing useful<br />
     libmbedtls v2.16.1
 ````
 More to be added<br />
-All packages are built with LZMA compression therefore can be installed on iOS 10-11.<br />
-Packages will work on iOS 10.x and 11.x unless explicitly stated in package description.
+All packages are built with LZMA compression therefore can be installed on iOS 10-12.<br />
+Packages will work on iOS 10.x to 12.x unless explicitly stated in package description.
 ## Click this link:
 [Add to Cydia](cydia://url/https://cydia.saurik.com/api/share#?source=https://i0ntempest.github.io/)
 ## Let The Bass Kick
