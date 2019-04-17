@@ -37,17 +37,17 @@ Name: Dynamix & Arcaea Zeppelin Icon Pack
 Author: i0nTempest <szf1234@me.com>
 
 Package: com.i0ntpst.file
-Version: 5.36-1
+Version: 5.36-2
 Priority: important
 Section: Utilities
 Maintainer: i0nTempest <szf1234@me.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
-Conflicts: file, com.mc.file
-Provides: file, com.mc.file
+Conflicts: com.mc.file
+Provides: com.mc.file
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.file_5.36-1_iphoneos-arm.deb
-Size: 372568
-MD5sum: 4a1686395167d5b4559e18aef4b530a4
+Filename: ./Debs///com.i0ntpst.file_5.36-2_iphoneos-arm.deb
+Size: 373162
+MD5sum: 5326fcabe0896f7162f76303aaebba49
 Description: guesses the type of a file from contents
 	Guesses the type of a file from contents.
 	This package is compiled for armv7, armv7s, and arm64.
