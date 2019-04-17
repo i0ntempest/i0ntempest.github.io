@@ -17,6 +17,8 @@ My Cydia repo that contains nothing useful<br />
     libmbedtls v2.16.1
     HTTrack v3.49.2
     zlib (32bit) v1.2.11
+    nano v4.1
+    gettext v0.19.8.1
 ````
 More to be added<br />
 All packages are built with LZMA compression therefore can be installed on iOS 10-12.<br />
