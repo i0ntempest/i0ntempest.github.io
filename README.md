@@ -7,7 +7,7 @@ My Cydia repo that contains nothing useful<br />
     SSL Kill Switch v0.12
     libncurses5 (32bit library only) v5.7
     ioreg (32bit only) v76
-    file v5.33
+    file v5.36
     MTerminal Extensions v1.0
     say v0.0.2
     Dynamix & Arcaea Zeppelin Icon Pack v1.0
