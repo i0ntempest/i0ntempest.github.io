@@ -56,17 +56,18 @@ Name: file
 Tag: purpose::console, role::hacker
 
 Package: com.i0ntpst.httrack
-Version: 3.49.2-1
+Version: 3.49.2-2
 Priority: optional
 Section: Networking
 Maintainer: i0nTempest <szf1234@me.com>
 Depends: com.mc.zlib | com.i0ntpst.zlib32, openssl | com.mc.openssl
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.httrack_3.49.2-1_iphoneos-arm.deb
-Size: 3777304
-MD5sum: 76e6c25e6ba108fdffc2e6bffde9396c
+Filename: ./Debs///com.i0ntpst.httrack_3.49.2-2_iphoneos-arm.deb
+Size: 3778002
+MD5sum: 68162d3036d7da3db8bce1a62e2ee7a1
 Description: HTTrack is a free (GPL, libre/free software) and easy-to-use offline browser utility.
-	Allows you to download a World Wide Web site from the Internet to a local directory, building recursively all directories, getting HTML, images, and other files from the server to your computer. HTTrack arranges the original site's relative link-structure. Simply open a page of the "mirrored" website in your browser, and you can browse the site from link to link, as if you were viewing it online. HTTrack can also update an existing mirrored site, and resume interrupted downloads. HTTrack is fully configurable, and has an integrated help system.
+	HTTrack is a free (GPL, libre/free software) and easy-to-use offline browser utility.
+	It allows you to download a World Wide Web site from the Internet to a local directory, building recursively all directories, getting HTML, images, and other files from the server to your computer. HTTrack arranges the original site's relative link-structure. Simply open a page of the "mirrored" website in your browser, and you can browse the site from link to link, as if you were viewing it online. HTTrack can also update an existing mirrored site, and resume interrupted downloads. HTTrack is fully configurable, and has an integrated help system.
 	This package is build for armv7, armv7s, and arm64. arm64 install requires packages from MCApollo's repo: https://mcapollo.github.io/Public/
 Name: HTTrack
 Author: Xavier Roche
