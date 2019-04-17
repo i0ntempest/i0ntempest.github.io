@@ -174,7 +174,7 @@ Author: i0nTempest <szf1234@me.com>
 Tag: purpose::extension
 
 Package: com.i0ntpst.nano
-Version: 4.1-1
+Version: 4.1-2
 Priority: optional
 Section: Text Editors
 Maintainer: i0nTempest <szf1234@me.com>
@@ -183,9 +183,9 @@ Depends: com.i0ntpst.gettext, com.mc.zlib | com.i0ntpst.zlib32, com.mc.file | co
 Conflicts: com.mc.nano
 Provides: com.mc.nano
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.nano_4.1-1_iphoneos-arm.deb
-Size: 428116
-MD5sum: d2509a06011fb71fcb76651ce12e8d50
+Filename: ./Debs///com.i0ntpst.nano_4.1-2_iphoneos-arm.deb
+Size: 427846
+MD5sum: 9a9e6732823eb31c5c8ae9fe75da1870
 Description: Free (GNU) replacement for the Pico text editor
 	Free (GNU) replacement for the Pico text editor.
 	This package is compiled for armv7, armv7s, and arm64.
