@@ -15,6 +15,8 @@ My Cydia repo that contains nothing useful<br />
     tty-clock v2.3
     ttytimer v0.1
     libmbedtls v2.16.1
+    HTTrack v3.49.2
+    zlib (32bit) v1.2.11
 ````
 More to be added<br />
 All packages are built with LZMA compression therefore can be installed on iOS 10-12.<br />
@@ -22,4 +24,4 @@ Packages will work on iOS 10.x to 12.x unless explicitly stated in package descr
 ## Click this link:
 [Add to Cydia](cydia://url/https://cydia.saurik.com/api/share#?source=https://i0ntempest.github.io/)
 ## Let The Bass Kick
-O-oooooooooo AAAAE-A-A-I-A-U- JO-oooooooooooo AAE-O-A-A-U-U-A- E-eee-ee-eee AAAAE-A-E-I-E-A- JO-ooo-oo-oo-oo EEEEO-A-AAA-AAAA啊wee改哈鞥嫦娥我刚不疤痕处哈维楚王嗡阿格王朔！！！！！！！！！！！！
+Bass Bass Kick Kick Bass Kick Kick Bass Bass Kick Kick Let The Bass Kick O-oooooooooo AAAAE-A-A-I-A-U- JO-oooooooooooo AAE-O-A-A-U-U-A- E-eee-ee-eee AAAAE-A-E-I-E-A- JO-ooo-oo-oo-oo EEEEO-A-AAA-AAAA啊wee改哈鞥嫦娥我刚不疤痕处哈维楚王嗡阿格王朔！！！！！！！！！！！！
