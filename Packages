@@ -174,7 +174,7 @@ Author: i0nTempest <szf1234@me.com>
 Tag: purpose::extension
 
 Package: com.i0ntpst.nano
-Version: 4.1-3
+Version: 4.2-1
 Priority: optional
 Section: Text Editors
 Maintainer: i0nTempest <szf1234@me.com>
@@ -183,13 +183,13 @@ Depends: com.i0ntpst.gettext, com.mc.zlib | com.i0ntpst.zlib32, com.mc.file | co
 Conflicts: com.mc.nano
 Provides: com.mc.nano
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.nano_4.1-3_iphoneos-arm.deb
-Size: 427728
-MD5sum: 9fa63c206e2aacdd0b86a40b11c6d2b1
+Filename: ./Debs///com.i0ntpst.nano_4.2-1_iphoneos-arm.deb
+Size: 428078
+MD5sum: 8ccd81e98993a6c17b0b1c5d0c39c9cd
 Description: Free (GNU) replacement for the Pico text editor
 	Free (GNU) replacement for the Pico text editor.
 	To enable syntax highlighting and colors, add line '''include "/usr/local/share/nano/*.nanorc"''' (triple quote not included) to ~/.nanorc file, preferably both for root and mobile user.
-	This package is compiled for armv7, armv7s, and arm64.
+	This package is compiled for armv7, armv7s, arm64, and arm64e.
 Name: nano
 Homepage: https://www.nano-editor.org/
 Tag: purpose::console
