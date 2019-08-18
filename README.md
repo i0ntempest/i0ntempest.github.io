@@ -20,13 +20,13 @@ Packages compiled/modified/made by me:
     nano v4.2
     gettext v0.19.8.1
 ````
-Packages not made by me:
+Packages not made by me:<br />
 (These are held here for convenience or the original source is no longer available.)
 ````
-	SSL Kill Switch v0.12 (nabla-c0d3)
-	batterydata v0.1 (Sticktron)
-	SSH Icon v1.0 (Sticktron)
-	NCMeters for iOS 9 v 0.9.1 (Sticktron)
+    SSL Kill Switch v0.12 (nabla-c0d3)
+    batterydata v0.1 (Sticktron)
+    SSH Icon v1.0 (Sticktron)
+    NCMeters for iOS 9 v 0.9.1 (Sticktron)
 ````
 More to be added<br />
 All packages are built with LZMA compression therefore can be installed on iOS 10-12.<br />
