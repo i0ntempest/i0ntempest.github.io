@@ -37,7 +37,7 @@ Name: Dynamix & Arcaea Zeppelin Icon Pack
 Author: i0nTempest <szf1234@me.com>
 
 Package: com.i0ntpst.file
-Version: 5.36-3
+Version: 5.37-1
 Priority: important
 Section: Utilities
 Maintainer: i0nTempest <szf1234@me.com>
@@ -45,9 +45,9 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Conflicts: com.mc.file
 Provides: com.mc.file
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.file_5.36-3_iphoneos-arm.deb
-Size: 372664
-MD5sum: 38a369d1a450f05ddd4bd6ed94f5c055
+Filename: ./Debs///com.i0ntpst.file_5.37-1_iphoneos-arm.deb
+Size: 381568
+MD5sum: 5a31883a9d23f923aabeb5ecf9a29ee4
 Description: guesses the type of a file from contents
 	Guesses the type of a file from contents.
 	This package is compiled for armv7, armv7s, and arm64.
@@ -291,4 +291,52 @@ MD5sum: 3c655099f43337b5ef273e83dea7eb8f
 Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps.
 Name: SSL Kill Switch 2
 Author: Alban Diquet <nabla.c0d3@gmail.com>
+
+Package: com.sticktron.batterydata
+Version: 0.1.0
+Section: System
+Maintainer: Sticktron
+Depends: 
+Architecture: iphoneos-arm
+Filename: ./Debs///com.sticktron.batterydata_0.1.0_iphoneos-arm.deb
+Size: 5046
+Installed-Size: 132
+MD5sum: 15a5d9acc33eb6993c1450eb6ed991c8
+Description: Prints battery data from IOKit
+Name: batterydata
+Author: Sticktron
+Tag: role::hacker
+
+Package: com.sticktron.ncmeters9
+Version: 0.9.1
+Section: Addons (NotificationCenter)
+Maintainer: Sticktron <sticktron@hotmail.com>
+Architecture: iphoneos-arm
+Filename: ./Debs///com.sticktron.ncmeters9_0.9.1_iphoneos-arm.deb
+Size: 166616
+Installed-Size: 748
+MD5sum: b966350d89cbf170c3fa8fe10a2284ff
+Description: System stats widget for the Notification Center.
+ Open the Notification Center and tap the Edit button to add the Meters widget.
+ If your device supports TouchID you can also use it on the App icon to see the widget.
+ Enjoy :)
+Name: NCMeters (iOS 9/10)
+Author: Sticktron <sticktron@hotmail.com>
+Icon: file:///Applications/NCMeters9.app/AppIcon60x60@2x.png
+
+Package: com.sticktron.sshicon
+Version: 1.0
+Section: Tweaks
+Maintainer: Sticktron
+Pre-Depends: firmware (>= 9.0)
+Depends: mobilesubstrate, preferenceloader, firmware (<< 9.1) | org.thebigboss.libstatus9, firmware (>= 9.0) | libstatusbar
+Architecture: iphoneos-arm
+Filename: ./Debs///com.sticktron.sshicon_1.0_iphoneos-arm.deb
+Size: 73210
+Installed-Size: 560
+MD5sum: 3ab2563a9a62cb6dd85ceaf9fa8c9823
+Description: An iOS status bar indicator for SSH connections.
+Name: SSH Status Bar Icon
+Author: Sticktron <sticktron@hotmail.com>
+Icon: file:///Library/PreferenceBundles/SSHIconSettings.bundle/Icon.png
 

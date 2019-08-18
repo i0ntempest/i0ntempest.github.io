@@ -2,9 +2,9 @@
 My Cydia repo that contains nothing useful<br />
 ![Repo Icon](./ReadmeIcon.png)
 ## Current package list:
+Packages compiled/modified/made by me:
 ````
     Dropbear v2019.78
-    SSL Kill Switch v0.12
     libncurses5 (32bit library only) v5.7
     ioreg (32bit only) v76
     file v5.36
@@ -19,6 +19,14 @@ My Cydia repo that contains nothing useful<br />
     zlib (32bit) v1.2.11
     nano v4.2
     gettext v0.19.8.1
+````
+Packages not made by me:
+(These are held here for convenience or the original source is no longer available.)
+````
+	SSL Kill Switch v0.12 (nabla-c0d3)
+	batterydata v0.1 (Sticktron)
+	SSH Icon v1.0 (Sticktron)
+	NCMeters for iOS 9 v 0.9.1 (Sticktron)
 ````
 More to be added<br />
 All packages are built with LZMA compression therefore can be installed on iOS 10-12.<br />
