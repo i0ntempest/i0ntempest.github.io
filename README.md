@@ -25,8 +25,7 @@ Packages not made by me:<br />
 ````
     SSL Kill Switch v0.12 (nabla-c0d3)
     batterydata v0.1 (Sticktron)
-    SSH Icon v1.0 (Sticktron)
-    NCMeters for iOS 9 v 0.9.1 (Sticktron)
+    NCMeters (iOS 9/10) v0.9.1 (Sticktron)
 ````
 More to be added<br />
 All packages are built with LZMA compression therefore can be installed on iOS 10-12.<br />

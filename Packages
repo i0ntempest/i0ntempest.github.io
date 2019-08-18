@@ -324,19 +324,3 @@ Name: NCMeters (iOS 9/10)
 Author: Sticktron <sticktron@hotmail.com>
 Icon: file:///Applications/NCMeters9.app/AppIcon60x60@2x.png
 
-Package: com.sticktron.sshicon
-Version: 1.0
-Section: Tweaks
-Maintainer: Sticktron
-Pre-Depends: firmware (>= 9.0)
-Depends: mobilesubstrate, preferenceloader, firmware (<< 9.1) | org.thebigboss.libstatus9, firmware (>= 9.0) | libstatusbar
-Architecture: iphoneos-arm
-Filename: ./Debs///com.sticktron.sshicon_1.0_iphoneos-arm.deb
-Size: 73210
-Installed-Size: 560
-MD5sum: 3ab2563a9a62cb6dd85ceaf9fa8c9823
-Description: An iOS status bar indicator for SSH connections.
-Name: SSH Status Bar Icon
-Author: Sticktron <sticktron@hotmail.com>
-Icon: file:///Library/PreferenceBundles/SSHIconSettings.bundle/Icon.png
-
