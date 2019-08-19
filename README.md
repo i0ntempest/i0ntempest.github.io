@@ -9,16 +9,15 @@ Packages compiled/modified/made by me:
     ioreg (32bit only) v76
     file v5.36
     MTerminal Extensions v1.0
-    say v0.0.2
     Dynamix & Arcaea Zeppelin Icon Pack v1.1
-    plutil v0.0.3
     tty-clock v2.3
     ttytimer v0.1
     libmbedtls v2.16.1
     HTTrack v3.49.2
     zlib (32bit) v1.2.11
-    nano v4.2
+    nano v4.3
     gettext v0.19.8.1
+    neofetch v6.0.0
 ````
 Packages not made by me:<br />
 (These are held here for convenience or the original source is no longer available.)
