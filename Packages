@@ -37,7 +37,7 @@ Name: Dynamix & Arcaea Zeppelin Icon Pack
 Author: i0nTempest <szf1234@me.com>
 
 Package: com.i0ntpst.file
-Version: 5.37-1
+Version: 5.37-2
 Priority: important
 Section: Utilities
 Maintainer: i0nTempest <szf1234@me.com>
@@ -45,12 +45,12 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Conflicts: com.mc.file
 Provides: com.mc.file
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.file_5.37-1_iphoneos-arm.deb
-Size: 381568
-MD5sum: 5a31883a9d23f923aabeb5ecf9a29ee4
+Filename: ./Debs///com.i0ntpst.file_5.37-2_iphoneos-arm.deb
+Size: 382040
+MD5sum: 84ba086cb31bdc8aa8f88a175dece5e6
 Description: guesses the type of a file from contents
 	Guesses the type of a file from contents.
-	This package is compiled for armv7, armv7s, and arm64.
+	This package is compiled for armv7, armv7s, arm64, and arm64e.
 	Includes libmagic.
 Name: file
 Tag: purpose::console, role::hacker
@@ -277,6 +277,22 @@ Description: General-purpose lossless data-compression library
 Name: zlib (32bit)
 Homepage: https://zlib.net/
 Tag: purpose::library
+
+Package: com.julioverne.cydown
+Version: 6.9.7
+Section: Tweaks
+Maintainer: Julio
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: ./Debs///com.julioverne.cydown_6.9.7_iphoneos-arm.deb
+Size: 898776
+MD5sum: 3cdb7b8a0924425910d1f95a813c82e9
+Description: Cydia Download Manager & Extra Features!
+Name: CyDown
+Author: julioverne <julioverne@me.com>
+Homepage: http://twitter.com/ijulioverne
+Depiction: http://julio.xarold.com/files-deb/cydown.html
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
 
 Package: com.nablac0d3.sslkillswitch2
 Version: 0.12-3+debug
