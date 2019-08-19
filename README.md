@@ -10,7 +10,7 @@ Packages compiled/modified/made by me:
     file v5.36
     MTerminal Extensions v1.0
     say v0.0.2
-    Dynamix & Arcaea Zeppelin Icon Pack v1.0
+    Dynamix & Arcaea Zeppelin Icon Pack v1.1
     plutil v0.0.3
     tty-clock v2.3
     ttytimer v0.1

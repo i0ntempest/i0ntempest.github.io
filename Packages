@@ -23,15 +23,15 @@ Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
 Tag: purpose::console, purpose::daemon, role::enduser
 
 Package: com.i0ntpst.dyarczeppelinicon
-Version: 1.0-2
+Version: 1.1-1
 Priority: extra
 Section: Addons (Zeppelin)
 Maintainer: i0nTempest <szf1234@me.com>
-Depends: com.alexzielenski.zeppelin
+Depends: com.peterdev.xeon | com.peterdev.xeonbeta | com.alexzielenski.zeppelin
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.dyarczeppelinicon_1.0-2_iphoneos-arm.deb
-Size: 11244
-MD5sum: 81b66c65eba9970c294e6e5968f2cda6
+Filename: ./Debs///com.i0ntpst.dyarczeppelinicon_1.1-1_iphoneos-arm.deb
+Size: 13456
+MD5sum: 922d260ed20986f7ae3ff026f44abe48
 Description: Replace your carrier with Dynamix or Arcaea logo!
 Name: Dynamix & Arcaea Zeppelin Icon Pack
 Author: i0nTempest <szf1234@me.com>
