@@ -7,11 +7,12 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: libpcap1 | com.mc.libpcap, com.mc.libnet
 Architecture: iphoneos-arm
 Filename: ./Debs///com.i0ntpst.arping_2.20-2_iphoneos-arm.deb
-Size: 19884
-MD5sum: 7660ba3a3f111a1087e22afef2ee84b7
+Size: 19934
+MD5sum: 663b0972e7289d1229d18f580b91513d
 Description: ping but using ARP packets
 	Broadcasts a who-has ARP packet on the network and prints answers. VERY useful when you are trying to pick an unused IP for a net that you don't yet have routing to.
 	This package is compiled for arm64 and arm64e only, because I wasn't able to compile libpcap for arm architectures so I had to use pre-compiled ones.
+	Requires packages from MCApollo's repo: https://mcapollo.github.io/Public/
 Name: arping
 Author: Thomas Habets <thomas@habets.se>
 Homepage: http://www.habets.pp.se/synscan/programs.php?prog=arping
