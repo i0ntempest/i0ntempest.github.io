@@ -56,7 +56,7 @@ Name: file
 Tag: purpose::console, role::hacker
 
 Package: com.i0ntpst.gettext
-Version: 0.19.8.1-2
+Version: 0.20.1-1
 Priority: optional
 Section: Development
 Maintainer: i0nTempest <szf1234@me.com>
@@ -65,12 +65,12 @@ Depends: com.mc.libxml2 | libxml2, com.mc.zlib | com.i0ntpst.zlib32, com.mc.xz |
 Conflicts: com.mc.gettext
 Provides: com.mc.gettext
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.gettext_0.19.8.1-2_iphoneos-arm.deb
-Size: 3347506
-MD5sum: f00dea0495a7c6a63d02df5cd5ffbfa2
+Filename: ./Debs///com.i0ntpst.gettext_0.20.1-1_iphoneos-arm.deb
+Size: 6054604
+MD5sum: 1acabfaf3596fe15946214fbb8dbd41d
 Description: GNU internationalization (i18n) and localization (l10n) library
 	GNU internationalization (i18n) and localization (l10n) library.
-	This package is compiled for armv7, armv7s, and arm64.
+	This package is compiled for armv7, armv7s, arm64, and arm64e.
 Name: gettext
 Homepage: https://www.gnu.org/software/gettext/
 Tag: purpose::library

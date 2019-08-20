@@ -16,7 +16,7 @@ Packages compiled/modified/made by me:
     HTTrack v3.49.2
     zlib (32bit) v1.2.11
     nano v4.3
-    gettext v0.19.8.1
+    gettext v0.20.1
     neofetch v6.0.0
 ````
 Packages not made by me:<br />
