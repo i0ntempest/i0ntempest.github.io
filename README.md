@@ -18,6 +18,7 @@ Packages compiled/modified/made by me:
     nano v4.3
     gettext v0.20.1
     neofetch v6.0.0
+    Bash Completion v2.9
 ````
 Packages not made by me:<br />
 (These are held here for convenience or the original source is no longer available.)
@@ -27,8 +28,9 @@ Packages not made by me:<br />
     NCMeters (iOS 9/10) v0.9.1 (Sticktron)
 ````
 More to be added<br />
-All packages are built with LZMA compression therefore can be installed on iOS 10-12.<br />
-Packages will work on iOS 10.x to 12.x unless explicitly stated in package description.
+All my packages are built with LZMA compression therefore can be installed on iOS 10-12<br />
+Packages should work on iOS 10.x to 12.x unless explicitly stated in package description.<br />
+However do note that I only have one jailbroken device running iOS 12.4 and packages are tested there.
 ## Click this link:
 [Add to Cydia](cydia://url/https://cydia.saurik.com/api/share#?source=https://i0ntempest.github.io/)
 ## Let The Bass Kick
