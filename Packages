@@ -9,8 +9,8 @@ Conflicts: com.mc.bash-completion, bash-completion
 Provides: com.mc.bash-completion, bash-completion
 Architecture: iphoneos-arm
 Filename: ./Debs///com.i0ntpst.bash-completion_2.9-1_iphoneos-arm.deb
-Size: 189282
-MD5sum: 29a089f26f502f7e84df01ec19c67bd4
+Size: 340666
+MD5sum: 8a29bd32254385af1cd75a30001c1642
 Description: Programmable completion for Bash
 	Programmable completion for Bash
 Name: Bash Completion
