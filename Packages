@@ -1,3 +1,22 @@
+Package: com.i0ntpst.arping
+Version: 2.20-1
+Priority: standard
+Section: Networking
+Maintainer: i0nTempest <szf1234@me.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libpcap | libpcap1 | com.mc.libpcap, com.mc.libnet | com.i0ntpst.libnet
+Architecture: iphoneos-arm
+Filename: ./Debs///com.i0ntpst.arping_2.20-1_iphoneos-arm.deb
+Size: 19886
+MD5sum: f83b5e558347b4f526c7167ca13835d4
+Description: ping but using ARP packets
+	Broadcasts a who-has ARP packet on the network and prints answers. VERY useful when you are trying to pick an unused IP for a net that you don't yet have routing to.
+	This package is compiled for arm64 and arm64e only, because I wasn't able to compile libpcap for arm architectures so I had to use pre-compiled ones.
+Name: arping
+Author: Thomas Habets
+Homepage: http://www.habets.pp.se/synscan/programs.php?prog=arping
+Tag: purpose::console
+
 Package: com.i0ntpst.bash-completion
 Version: 2.9-1
 Priority: optional
@@ -170,6 +189,26 @@ Description: Just the libncurses.5.dylib file from 32bit 5.7 version of New Curs
 	This package won't install if the file it contains already exists (/usr/lib/libncurses.5.dylib). In this case you should already have the 32bit version installed.
 Name: libncurses5 (32bit library only)
 Author: Jay Freeman (saurik)
+
+Package: com.i0ntpst.libnet
+Version: 1.1.6-1
+Priority: optional
+Section: Development
+Maintainer: i0nTempest <szf1234@me.com>
+Pre-Depends: dpkg
+Conflicts: com.mc.libnet
+Provides: com.mc.libnet
+Architecture: iphoneos-arm
+Filename: ./Debs///com.i0ntpst.libnet_1.1.6-1_iphoneos-arm.deb
+Size: 319882
+MD5sum: 603b043f35d2798ab1a430de2f778447
+Description: Low-level network packet construction
+	libnet provides a portable framework for low-level network packet construction.
+	This package is compiled for armv7, armv7s, arm64, and arm64e.
+Name: libnet
+Author: George Foot <gfoot@users.sf.net>
+Homepage: https://github.com/sam-github/libnet
+Tag: purpose::library
 
 Package: com.i0ntpst.mtermext
 Version: 1.0-3

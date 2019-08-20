@@ -19,6 +19,8 @@ Packages compiled/modified/made by me:
     gettext v0.20.1
     neofetch v6.0.0
     Bash Completion v2.9
+    arping v2.20
+    libnet v1.1.6
 ````
 Packages not made by me:<br />
 (These are held here for convenience or the original source is no longer available.)
