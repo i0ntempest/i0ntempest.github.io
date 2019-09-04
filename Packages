@@ -236,14 +236,14 @@ Homepage: https://www.nano-editor.org/
 Tag: purpose::console
 
 Package: com.i0ntpst.neofetch
-Version: 6.0.0-1
+Version: 6.1.0-1
 Section: Terminal Support
 Maintainer: i0nTempest <szf1234@me.com>
 Depends: bash
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.neofetch_6.0.0-1_iphoneos-arm.deb
-Size: 65980
-MD5sum: 92ce9a765f9ed6daa4a5e86f6e0ace88
+Filename: ./Debs///com.i0ntpst.neofetch_6.1.0-1_iphoneos-arm.deb
+Size: 67126
+MD5sum: b075a29233836c07db91f83825b888d3
 Description: A command-line system information tool written in bash 3.2+
 	Neofetch is a command-line system information tool written in bash 3.2+. Neofetch displays information about your operating system, software and hardware in an aesthetic and visually pleasing way.
 Name: neofetch
