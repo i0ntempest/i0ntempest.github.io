@@ -2,7 +2,7 @@
 My Cydia repo that contains nothing useful<br />
 ![Repo Icon](./ReadmeIcon.png)
 ## Current package list:
-Packages compiled/modified/made by me:
+Packages compiled/made/modified by me:
 ````
     Dropbear v2019.78
     libncurses5 (32bit library only) v5.7
@@ -15,7 +15,7 @@ Packages compiled/modified/made by me:
     libmbedtls v2.16.1
     HTTrack v3.49.2
     zlib (32bit) v1.2.11
-    nano v4.3
+    nano v4.4
     gettext v0.20.1
     neofetch v6.0.0
     Bash Completion v2.9
@@ -29,8 +29,9 @@ Packages not made by me:<br />
     NCMeters (iOS 9/10) v0.9.1 (Sticktron)
 ````
 More to be added<br />
-All my packages are built with LZMA compression therefore can be installed on iOS 10-12<br />
+All my packages are built with lzma or gzip compression therefore can be installed on iOS 10-12.<br />
 Packages should work on iOS 10.x to 12.x unless explicitly stated in package description.<br />
+Binaries will be in arm64 and armv7 archs if possible, otherwise it will be arm64 only.
 However do note that I only have one jailbroken device running iOS 12.4 and packages are tested there.
 ## Click this link:
 [Add to Cydia](cydia://url/https://cydia.saurik.com/api/share#?source=https://i0ntempest.github.io/)

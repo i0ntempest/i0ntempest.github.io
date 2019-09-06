@@ -117,19 +117,19 @@ Homepage: https://www.gnu.org/software/gettext/
 Tag: purpose::library
 
 Package: com.i0ntpst.httrack
-Version: 3.49.2-2
+Version: 3.49.2-3
 Priority: optional
 Section: Networking
 Maintainer: i0nTempest <szf1234@me.com>
-Depends: com.mc.zlib | com.i0ntpst.zlib32, openssl | com.mc.openssl
+Depends: com.mc.zlib | com.i0ntpst.zlib, openssl | com.mc.openssl
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.httrack_3.49.2-2_iphoneos-arm.deb
-Size: 3778002
-MD5sum: 68162d3036d7da3db8bce1a62e2ee7a1
+Filename: ./Debs///com.i0ntpst.httrack_3.49.2-3_iphoneos-arm.deb
+Size: 8527298
+MD5sum: 8f20b086acf46a0ad508875e0dc66ff9
 Description: HTTrack is a free (GPL, libre/free software) and easy-to-use offline browser utility.
 	HTTrack is a free (GPL, libre/free software) and easy-to-use offline browser utility.
 	It allows you to download a World Wide Web site from the Internet to a local directory, building recursively all directories, getting HTML, images, and other files from the server to your computer. HTTrack arranges the original site's relative link-structure. Simply open a page of the "mirrored" website in your browser, and you can browse the site from link to link, as if you were viewing it online. HTTrack can also update an existing mirrored site, and resume interrupted downloads. HTTrack is fully configurable, and has an integrated help system.
-	This package is build for armv7, armv7s, and arm64. arm64 install requires packages from MCApollo's repo: https://mcapollo.github.io/Public/
+	This package is build for armv7, armv7s, and arm64.
 Name: HTTrack
 Author: Xavier Roche
 Homepage: https://www.httrack.com
@@ -215,7 +215,7 @@ Author: i0nTempest <szf1234@me.com>
 Tag: purpose::extension
 
 Package: com.i0ntpst.nano
-Version: 4.3-2
+Version: 4.4-1
 Priority: optional
 Section: Text Editors
 Maintainer: i0nTempest <szf1234@me.com>
@@ -224,13 +224,13 @@ Depends: com.i0ntpst.gettext, com.mc.zlib | com.i0ntpst.zlib32, com.mc.file | co
 Conflicts: com.mc.nano
 Provides: com.mc.nano
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.nano_4.3-2_iphoneos-arm.deb
-Size: 531520
-MD5sum: fb154e241d56bb25eb83a44f2f8671a2
+Filename: ./Debs///com.i0ntpst.nano_4.4-1_iphoneos-arm.deb
+Size: 268360
+MD5sum: 6a5af7e1ca3bbe7a1262d194d5d3ab38
 Description: Free (GNU) replacement for the Pico text editor
 	Free (GNU) replacement for the Pico text editor.
 	To enable syntax highlighting and colors, add line '''include "/usr/local/share/nano/*.nanorc"''' (triple quote not included) to ~/.nanorc file, preferably both for root and mobile user.
-	This package is compiled for armv7, armv7s, arm64, and arm64e.
+	This package is compiled for arm64 and arm64e.
 Name: nano
 Homepage: https://www.nano-editor.org/
 Tag: purpose::console
@@ -281,22 +281,21 @@ Name: ttytimer
 Author: Mohammad Barbar
 Tag: purpose::console
 
-Package: com.i0ntpst.zlib32
+Package: com.i0ntpst.zlib
 Version: 1.2.11-1
 Priority: optional
 Section: Archiving
 Maintainer: i0nTempest <szf1234@me.com>
 Pre-Depends: dpkg
-Depends: firmware(<=10.3.3)
-Conflicts: cy+cpu.arm64, com.mc.zlib
+Provides: com.mc.zlib
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.zlib32_1.2.11-1_iphoneos-arm.deb
-Size: 101072
-MD5sum: 74722ddd9eadaa73eb8c1a8efb7160c2
+Filename: ./Debs///com.i0ntpst.zlib_1.2.11-1_iphoneos-arm.deb
+Size: 143490
+MD5sum: e06e9cebb56b8a1722b4e4a80977a948
 Description: General-purpose lossless data-compression library
 	General-purpose lossless data-compression library.
-	This package is compiled for armv7 and armv7s only. For arm64, use MCApollo's version.
-Name: zlib (32bit)
+	This package is build for armv7, armv7s, arm64, and arm64e.
+Name: zlib
 Homepage: https://zlib.net/
 Tag: purpose::library
 
