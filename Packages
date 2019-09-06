@@ -287,11 +287,12 @@ Priority: optional
 Section: Archiving
 Maintainer: i0nTempest <szf1234@me.com>
 Pre-Depends: dpkg
+Conflicts: com.mc.zlib
 Provides: com.mc.zlib
 Architecture: iphoneos-arm
 Filename: ./Debs///com.i0ntpst.zlib_1.2.11-1_iphoneos-arm.deb
-Size: 143490
-MD5sum: e06e9cebb56b8a1722b4e4a80977a948
+Size: 143502
+MD5sum: 07ceeea9d688f077b0cecdaea6fbda83
 Description: General-purpose lossless data-compression library
 	General-purpose lossless data-compression library.
 	This package is build for armv7, armv7s, arm64, and arm64e.
