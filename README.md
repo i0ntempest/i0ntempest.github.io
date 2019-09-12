@@ -17,7 +17,7 @@ Packages compiled/made/modified by me:
     zlib (32bit) v1.2.11
     nano v4.4
     gettext v0.20.1
-    neofetch v6.0.0
+    neofetch v6.1.0
     Bash Completion v2.9
     arping v2.20
 ````
