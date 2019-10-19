@@ -33,3 +33,17 @@ Section: libs
 Architecture: mips_24kc
 Filename: ./Ipks/libpcap_1.9.1-1_mips_24kc.ipk
 Description:  This package contains a system-independent library for user-level network packet capture.
+
+Package: libopenssl1.1
+Version: 1.1.1d-1
+Depends: libc
+Provides: libopenssl
+License: OpenSSL
+Section: libs
+Architecture: mips_24kc
+Filename: ./Ipks/libopenssl1.1_1.1.1d-1_mips_24kc.ipk
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
