@@ -14,8 +14,6 @@ License: GPL-2.0
 Section: net
 Architecture: mips_24kc
 Filename: ./Ipks/aircrack-ng_1.5.2_mips_24kc.ipk
-Size: 393106
-SHA256sum: a1423e753c62b1478976075161a9a1bd0a2879060e2c0f4c0fb01e1778eb4a28
 Description:  WLAN tools for breaking 802.11 WEP/WPA keys
 
 Package: airmon-ng
