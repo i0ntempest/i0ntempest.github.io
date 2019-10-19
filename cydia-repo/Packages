@@ -1,3 +1,17 @@
+Package: com.anonymousx.dlgmemorinjected
+Version: 11.3.1
+Section: Tool
+Maintainer: AnonymousxiosdeV
+Depends: firmware (>= 11), mobilesubstrate, preferenceloader, applist
+Architecture: iphoneos-arm
+Filename: ./Debs///com.anonymousx.dlgmemorinjected_11.3.1_iphoneos-arm.deb
+Size: 201586
+Installed-Size: 716
+MD5sum: e71a1d5f0a0274b328b3d6d68eccb7eb
+Description: Injection library that allows you to alter memory in app.
+Name: DLGMemor Injected
+Author: AnonymousxiosdeV
+
 Package: com.i0ntpst.arping
 Version: 2.20-2
 Priority: standard
@@ -37,6 +51,22 @@ Name: Bash Completion
 Author: Ville Skyttä <ville.skytta@iki.fi>
 Homepage: https://github.com/scop/bash-completion
 Tag: purpose::console
+
+Package: com.i0ntpst.dm.pl
+Version: 1.2
+Section: Packaging
+Maintainer: Theos Developers <support@hbang.ws>
+Depends: perl (>= 5.26), gzip, bzip2, xz-utils | lzma
+Architecture: all
+Filename: ./Debs///com.i0ntpst.dm.pl_1.2_all.deb
+Size: 5428
+Installed-Size: 16
+MD5sum: 6395383b852e003c51bb9338f2010e93
+Description: Perl based 'dpkg-deb -b' replacement
+	Perl based 'dpkg-deb -b' replacement.
+Name: dm.pl
+Author: Theos Developers <support@hbang.ws>
+Tag: role::hacker
 
 Package: com.i0ntpst.dropbear
 Version: 2019.78-5
@@ -215,7 +245,7 @@ Author: i0nTempest <szf1234@me.com>
 Tag: purpose::extension
 
 Package: com.i0ntpst.nano
-Version: 4.4-1
+Version: 4.5-1
 Priority: optional
 Section: Text Editors
 Maintainer: i0nTempest <szf1234@me.com>
@@ -224,9 +254,9 @@ Depends: com.i0ntpst.gettext, com.mc.zlib | com.i0ntpst.zlib32, com.mc.file | co
 Conflicts: com.mc.nano
 Provides: com.mc.nano
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.nano_4.4-1_iphoneos-arm.deb
-Size: 268360
-MD5sum: 6a5af7e1ca3bbe7a1262d194d5d3ab38
+Filename: ./Debs///com.i0ntpst.nano_4.5-1_iphoneos-arm.deb
+Size: 273136
+MD5sum: 933cff7abfa828aa9a7258d71a38e2bb
 Description: Free (GNU) replacement for the Pico text editor
 	Free (GNU) replacement for the Pico text editor.
 	To enable syntax highlighting and colors, add line '''include "/usr/local/share/nano/*.nanorc"''' (triple quote not included) to ~/.nanorc file, preferably both for root and mobile user.
@@ -299,22 +329,6 @@ Description: General-purpose lossless data-compression library
 Name: zlib
 Homepage: https://zlib.net/
 Tag: purpose::library
-
-Package: com.julioverne.cydown
-Version: 6.9.7
-Section: Tweaks
-Maintainer: Julio
-Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm
-Filename: ./Debs///com.julioverne.cydown_6.9.7_iphoneos-arm.deb
-Size: 898776
-MD5sum: 3cdb7b8a0924425910d1f95a813c82e9
-Description: Cydia Download Manager & Extra Features!
-Name: CyDown
-Author: julioverne <julioverne@me.com>
-Homepage: http://twitter.com/ijulioverne
-Depiction: http://julio.xarold.com/files-deb/cydown.html
-Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
 
 Package: com.nablac0d3.sslkillswitch2
 Version: 0.12-3+debug
