@@ -9,7 +9,7 @@ Description:  Nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
 
 Package: aircrack-ng
 Version: 1.5.2
-Depends: libc, libpcap, libpcre, libpthread, uclibcxx, libopenssl, libnl-core, libnl-genl, zlib
+Depends: libc, libpcap, libpcre, libpthread, uclibcxx, libopenssl1.1, libnl-core, libnl-genl, zlib
 License: GPL-2.0
 Section: net
 Architecture: mips_24kc
