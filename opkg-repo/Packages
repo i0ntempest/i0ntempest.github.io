@@ -5,8 +5,7 @@ License: GPL-3.0-or-later
 Section: utils
 Architecture: mips_24kc
 Filename: ./Ipks/nano_4.5-1_mips_24kc.ipk
-Description:  Nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
- of the Pico text editor.
+Description:  Nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone of the Pico text editor.
  
 Package: aircrack-ng
 Version: 1.5.2
@@ -35,5 +34,4 @@ License: BSD-3-Clause
 Section: libs
 Architecture: mips_24kc
 Filename: ./Ipks/libpcap1_1.9.1-1_mips_24kc.ipk
-Description:  This package contains a system-independent library for user-level network packet
- capture.
+Description:  This package contains a system-independent library for user-level network packet capture.
