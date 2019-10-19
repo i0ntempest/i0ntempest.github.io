@@ -15,11 +15,12 @@ Packages compiled/made/modified by me:
     libmbedtls v2.16.1
     HTTrack v3.49.2
     zlib (32bit) v1.2.11
-    nano v4.4
+    nano v4.5
     gettext v0.20.1
     neofetch v6.1.0
     Bash Completion v2.9
     arping v2.20
+    dm.pl v1.2
 ````
 Packages not made by me:<br />
 (These are held here for convenience or the original source is no longer available.)
@@ -27,6 +28,7 @@ Packages not made by me:<br />
     SSL Kill Switch v0.12 (nabla-c0d3)
     batterydata v0.1 (Sticktron)
     NCMeters (iOS 9/10) v0.9.1 (Sticktron)
+    DLGMemor Injected v11.3.1 (ExtremeDrone)
 ````
 More to be added<br />
 All my packages are built with lzma or gzip compression therefore can be installed on iOS 10-12.<br />
@@ -34,6 +36,6 @@ Packages should work on iOS 10.x to 12.x unless explicitly stated in package des
 Binaries will be in arm64 and armv7 archs if possible, otherwise it will be arm64 only.
 However do note that I only have one jailbroken device running iOS 12.4 and packages are tested there.
 ## Click this link:
-[Add to Cydia](cydia://url/https://cydia.saurik.com/api/share#?source=https://i0ntempest.github.io/)
+[Add to Cydia](cydia://url/https://cydia.saurik.com/api/share#?source=https://i0ntempest.github.io/cydia-repo/)
 ## Let The Bass Kick
 Bass Bass Kick Kick Bass Kick Kick Bass Bass Kick Kick Let The Bass Kick O-oooooooooo AAAAE-A-A-I-A-U- JO-oooooooooooo AAE-O-A-A-U-U-A- E-eee-ee-eee AAAAE-A-E-I-E-A- JO-ooo-oo-oo-oo EEEEO-A-AAA-AAAA啊wee改哈鞥嫦娥我刚不疤痕处哈维楚王嗡阿格王朔！！！！！！！！！！！！
