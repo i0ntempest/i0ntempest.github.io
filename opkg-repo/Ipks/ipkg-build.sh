@@ -98,8 +98,8 @@ You probably want to chown these to a system user: " >&2
 	arch=`required_field Architecture`
 	[ "$?" -ne 0 ] && PKG_ERROR=1
 
-	required_field Maintainer >/dev/null
-	[ "$?" -ne 0 ] && PKG_ERROR=1
+#	required_field Maintainer >/dev/null
+#	[ "$?" -ne 0 ] && PKG_ERROR=1
 
 	required_field Description >/dev/null
 	[ "$?" -ne 0 ] && PKG_ERROR=1
