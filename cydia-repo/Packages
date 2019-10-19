@@ -1,13 +1,13 @@
 Package: com.anonymousx.dlgmemorinjected
-Version: 11.3.1
-Section: Tool
+Version: 11.3.1-1
+Section: Utilities
 Maintainer: AnonymousxiosdeV
 Depends: firmware (>= 11), mobilesubstrate, preferenceloader, applist
 Architecture: iphoneos-arm
-Filename: ./Debs///com.anonymousx.dlgmemorinjected_11.3.1_iphoneos-arm.deb
-Size: 201586
+Filename: ./Debs///com.anonymousx.dlgmemorinjected_11.3.1-1_iphoneos-arm.deb
+Size: 201590
 Installed-Size: 716
-MD5sum: e71a1d5f0a0274b328b3d6d68eccb7eb
+MD5sum: e4a46318c81498c5b3ea2bbfe3bbc04a
 Description: Injection library that allows you to alter memory in app.
 Name: DLGMemor Injected
 Author: AnonymousxiosdeV
