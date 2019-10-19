@@ -224,6 +224,8 @@ if [ ! -d $pkg_dir ]; then
 	exit 1
 fi
 
+rm -f $pkg_dir/.DS_Store
+
 # CONTROL is second so that it takes precedence
 CONTROL=
 [ -d $pkg_dir/DEBIAN ] && CONTROL=DEBIAN
