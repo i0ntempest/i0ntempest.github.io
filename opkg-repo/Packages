@@ -37,7 +37,6 @@ Description:  This package contains a system-independent library for user-level 
 Package: libopenssl1.1
 Version: 1.1.1d-1
 Depends: libc
-Provides: libopenssl
 License: OpenSSL
 Section: libs
 Architecture: mips_24kc
