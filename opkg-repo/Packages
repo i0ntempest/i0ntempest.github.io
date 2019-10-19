@@ -1,0 +1,39 @@
+Package: nano
+Version: 4.5-1
+Depends: libc, libncurses
+License: GPL-3.0-or-later
+Section: utils
+Architecture: mips_24kc
+Filename: ./Ipks/nano_4.5-1_mips_24kc.ipk
+Description:  Nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
+ of the Pico text editor.
+ 
+Package: aircrack-ng
+Version: 1.5.2
+Depends: libc, libpcap, libpcre, libpthread, uclibcxx, libopenssl, libnl-core, libnl-genl, zlib
+License: GPL-2.0
+Section: net
+Architecture: mips_24kc
+Filename: ./Ipks/aircrack-ng_1.5.2_mips_24kc.ipk
+Size: 393106
+SHA256sum: a1423e753c62b1478976075161a9a1bd0a2879060e2c0f4c0fb01e1778eb4a28
+Description:  WLAN tools for breaking 802.11 WEP/WPA keys
+
+Package: airmon-ng
+Version: 1.5.2
+Depends: libc, wireless-tools, ethtool, procps-ng
+License: GPL-2.0
+Section: net
+Architecture: mips_24kc
+Filename: ./Ipks/airmon-ng_1.5.2_mips_24kc.ipk
+Description:  Bash script designed to turn wireless cards into monitor mode.
+
+Package: libpcap
+Version: 1.9.1-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+Architecture: mips_24kc
+Filename: ./Ipks/libpcap1_1.9.1-1_mips_24kc.ipk
+Description:  This package contains a system-independent library for user-level network packet
+ capture.
