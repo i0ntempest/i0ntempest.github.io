@@ -64,6 +64,7 @@ Depends: bash
 Section: utils
 Maintainer: i0nTempest <szf1234@me.com>
 Architecture: all
+Filename: ./Ipks/neofetch_6.1.0-1_all.ipk
 Description:  Neofetch is a command-line system information tool written in bash 3.2+.
  Neofetch displays information about your operating system, software and hardware in an
  aesthetic and visually pleasing way.
