@@ -46,3 +46,24 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  Transport Layer Security (TLS) protocol as well as a full-strength
  general-purpose cryptography library.
  This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: bash
+Version: 5.0-3
+Depends: libc, libncurses6, libreadline8
+License: GPL-3.0-or-later
+Section: utils
+Architecture: mips_24kc
+Filename: ./Ipks/bash_5.0-3_mips_24kc.ipk
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: neofetch
+Version: 6.1.0-1
+Depends: bash
+Section: utils
+Maintainer: i0nTempest <szf1234@me.com>
+Architecture: all
+Description:  Neofetch is a command-line system information tool written in bash 3.2+.
+ Neofetch displays information about your operating system, software and hardware in an
+ aesthetic and visually pleasing way.
