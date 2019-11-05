@@ -14,7 +14,7 @@ Packages compiled/made/modified by me:
     ttytimer v0.1
     libmbedtls v2.16.1
     HTTrack v3.49.2
-    zlib (32bit) v1.2.11
+    zlib v1.2.11
     nano v4.5
     gettext v0.20.1
     neofetch v6.1.0
