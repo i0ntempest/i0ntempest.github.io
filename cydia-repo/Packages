@@ -53,15 +53,15 @@ Homepage: https://github.com/scop/bash-completion
 Tag: purpose::console
 
 Package: com.i0ntpst.crunch
-Version: 3.6-1
+Version: 3.6-2
 Priority: standard
 Section: Security
 Maintainer: i0nTempest <szf1234@me.com>
 Pre-Depends: dpkg
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.crunch_3.6-1_iphoneos-arm.deb
-Size: 58766
-MD5sum: 7b18fc027564979d1b6b7a1992381924
+Filename: ./Debs///com.i0ntpst.crunch_3.6-2_iphoneos-arm.deb
+Size: 58440
+MD5sum: 4c0b7858ba1c02cf1293e699b31b9ef8
 Description: Wordlist generator
 	Crunch is a wordlist generator where you can specify a standard character set or a character set you specify. crunch can generate all possible combinations and permutations.
 	This package is compiled for armv7, armv7s, arm64, and arm64e.
