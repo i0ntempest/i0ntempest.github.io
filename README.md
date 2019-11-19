@@ -21,6 +21,7 @@ Packages compiled/made/modified by me:
     Bash Completion v2.9
     arping v2.20
     dm.pl v1.2
+    crunch v3.6
 ````
 Packages not made by me:<br />
 (These are held here for convenience or the original source is no longer available.)
