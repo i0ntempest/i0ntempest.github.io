@@ -224,7 +224,7 @@ if [ ! -d $pkg_dir ]; then
 	exit 1
 fi
 
-find $pkg_dir -name ".DS_Store" -type f -delete
+find "$pkg_dir" -name ".DS_Store" -type f -delete
 
 # CONTROL is second so that it takes precedence
 CONTROL=
