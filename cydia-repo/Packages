@@ -12,6 +12,22 @@ Description: Injection library that allows you to alter memory in app.
 Name: DLGMemor Injected
 Author: AnonymousxiosdeV
 
+Package: com.conorthedev.dragspring
+Version: 1.2.1
+Section: Tweaks
+Maintainer: ConorTheDev
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), me.nepeta.libcolorpicker
+Conflicts: com.sassoty.pulltorespring
+Architecture: iphoneos-arm
+Filename: ./Debs///com.conorthedev.dragspring_1.2.1.deb
+Size: 25206
+MD5sum: fba23eb7476b81b61661866324bca320
+Description: Drag down from the top of settings to respring!
+Name: Dragspring
+Author: ConorTheDev
+Depiction: https://repo.conorthedev.com/package/com.conorthedev.dragspring
+Icon: https://repo.conorthedev.com/img/dragspring.png
+
 Package: com.i0ntpst.arping
 Version: 2.20-2
 Priority: standard
@@ -391,4 +407,18 @@ Description: System stats widget for the Notification Center.
 Name: NCMeters (iOS 9/10)
 Author: Sticktron <sticktron@hotmail.com>
 Icon: file:///Applications/NCMeters9.app/AppIcon60x60@2x.png
+
+Package: sh.tat.konami-iap
+Version: 0.2.4
+Section: Tweaks
+Maintainer: ZzZ
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./Debs///sh.tat.konami-iap_0.2.4_iphoneos-arm.deb
+Size: 15522
+Installed-Size: 136
+MD5sum: 6fdffcc589c434dcc6952a83572e2eb7
+Description: Unlocks all songs (including DLC) in BEMANI games.
+Name: BEMANI Unlocker
+Author: ZzZ
 

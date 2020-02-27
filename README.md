@@ -30,6 +30,8 @@ Packages not made by me:<br />
     batterydata v0.1 (Sticktron)
     NCMeters (iOS 9/10) v0.9.1 (Sticktron)
     DLGMemor Injected v11.3.1 (ExtremeDrone)
+    BEMANI Unlocker v0.2.4 (Tatsh)
+    Dragspring v1.2.1 (ConorTheDev)
 ````
 More to be added<br />
 All my packages are built with lzma or gzip compression therefore can be installed on iOS 10-12.<br />
