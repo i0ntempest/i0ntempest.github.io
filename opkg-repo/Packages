@@ -1,10 +1,10 @@
 Package: nano
-Version: 4.6-1
+Version: 4.8-1
 Depends: libc, libncurses
 License: GPL-3.0-or-later
 Section: utils
 Architecture: mips_24kc
-Filename: ./Ipks/nano_4.6-1_mips_24kc.ipk
+Filename: ./Ipks/nano_4.8-1_mips_24kc.ipk
 Description:  Nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone of the Pico text editor.
 
 Package: aircrack-ng
