@@ -15,7 +15,7 @@ Packages compiled/made/modified by me:
     libmbedtls v2.16.1
     HTTrack v3.49.2
     zlib v1.2.11
-    nano v4.8
+    nano v4.9
     gettext v0.20.1
     neofetch v7.0.0
     Bash Completion v2.9
