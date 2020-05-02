@@ -16,14 +16,14 @@ Architecture: mips_24kc
 Filename: ./Ipks/aircrack-ng_1.6-1_mips_24kc.ipk
 Description:  WLAN tools for breaking 802.11 WEP/WPA keys
 
-Package: airmon-ng
-Version: 1.6-1
-Depends: libc, ethtool, procps-ng
-License: GPL-2.0-or-later
-Section: net
-Architecture: mipsel-3.4
-Filename: ./Ipks/airmon-ng_1.6-1_mipsel-3.4.ipk
-Description:  Bash script designed to turn wireless cards into monitor mode.
+#Package: airmon-ng
+#Version: 1.6-1
+#Depends: libc, ethtool, procps-ng
+#License: GPL-2.0-or-later
+#Section: net
+#Architecture: mipsel-3.4
+#Filename: ./Ipks/airmon-ng_1.6-1_mipsel-3.4.ipk
+#Description:  Bash script designed to turn wireless cards into monitor mode.
 
 Package: airmon-ng
 Version: 1.6-1
@@ -94,14 +94,14 @@ Description:  The Readline library provides a set of functions for use by applic
  lines, to recall and perhaps reedit those lines, and perform csh-like
  history expansion on previous commands.
 
-Package: iw
-Version: 5.4-1
-Depends: libc, libnl-tiny
-Source: feeds/base/package/network/utils/iw
-SourceName: iw
-License: GPL-2.0
-Section: net
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_mips32
-Filename: ./Ipks/iw_5.4-1_mipsel_mips32.ipk
-Description:  cfg80211 interface configuration utility
+#Package: iw
+#Version: 5.4-1
+#Depends: libc, libnl-tiny
+#Source: feeds/base/package/network/utils/iw
+#SourceName: iw
+#License: GPL-2.0
+#Section: net
+#Maintainer: Felix Fietkau <nbd@nbd.name>
+#Architecture: mipsel_mips32
+#Filename: ./Ipks/iw_5.4-1_mipsel_mips32.ipk
+#Description:  cfg80211 interface configuration utility
