@@ -93,3 +93,15 @@ Description:  The Readline library provides a set of functions for use by applic
  additional functions to maintain a list of previously-entered command
  lines, to recall and perhaps reedit those lines, and perform csh-like
  history expansion on previous commands.
+
+Package: iw
+Version: 5.4-1
+Depends: libc, libnl-tiny
+Source: feeds/base/package/network/utils/iw
+SourceName: iw
+License: GPL-2.0
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mipsel_mips32
+Installed-Size: 38449
+Description:  cfg80211 interface configuration utility
