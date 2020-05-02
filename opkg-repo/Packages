@@ -8,21 +8,30 @@ Filename: ./Ipks/nano_4.8-1_mips_24kc.ipk
 Description:  Nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone of the Pico text editor.
 
 Package: aircrack-ng
-Version: 1.5.2
+Version: 1.6-1
 Depends: libc, libpcap, libpcre, libpthread, uclibcxx, libopenssl1.1, libnl-core, libnl-genl, zlib
-License: GPL-2.0
+License: GPL-2.0-or-later
 Section: net
 Architecture: mips_24kc
-Filename: ./Ipks/aircrack-ng_1.5.2_mips_24kc.ipk
+Filename: ./Ipks/aircrack-ng_1.6-1_mips_24kc.ipk
 Description:  WLAN tools for breaking 802.11 WEP/WPA keys
 
 Package: airmon-ng
-Version: 1.5.2
+Version: 1.6-1
+Depends: libc, ethtool, procps-ng
+License: GPL-2.0-or-later
+Section: net
+Architecture: mipsel-3.4
+Filename: ./Ipks/airmon-ng_1.6-1_mipsel-3.4.ipk
+Description:  Bash script designed to turn wireless cards into monitor mode.
+
+Package: airmon-ng
+Version: 1.6-1
 Depends: libc, wireless-tools, ethtool, procps-ng
-License: GPL-2.0
+License: GPL-2.0-or-later
 Section: net
 Architecture: mips_24kc
-Filename: ./Ipks/airmon-ng_1.5.2_mips_24kc.ipk
+Filename: ./Ipks/airmon-ng_1.6-1_mips_24kc.ipk
 Description:  Bash script designed to turn wireless cards into monitor mode.
 
 Package: libpcap
@@ -35,13 +44,13 @@ Filename: ./Ipks/libpcap_1.9.1-2_mips_24kc.ipk
 Description:  This package contains a system-independent library for user-level network packet capture.
 
 Package: libopenssl1.1
-Version: 1.1.1d-1
+Version: 1.1.1g-1
 Depends: libc
 #Provides: libopenssl
 License: OpenSSL
 Section: libs
 Architecture: mips_24kc
-Filename: ./Ipks/libopenssl1.1_1.1.1d-1_mips_24kc.ipk
+Filename: ./Ipks/libopenssl1.1_1.1.1g-1_mips_24kc.ipk
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -49,23 +58,23 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package contains the OpenSSL shared libraries, needed by other programs.
 
 Package: bash
-Version: 5.0-3
+Version: 5.0-4
 Depends: libc, libncurses, libreadline8
 License: GPL-3.0-or-later
 Section: utils
 Architecture: mips_24kc
-Filename: ./Ipks/bash_5.0-3_mips_24kc.ipk
+Filename: ./Ipks/bash_5.0-4_mips_24kc.ipk
 Description:  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file. Bash also
  incorporates useful features from the Korn and C shells (ksh and csh).
 
 Package: neofetch
-Version: 6.1.0-1
+Version: 7.0.0-1
 Depends: bash
 Section: utils
 Maintainer: i0nTempest <szf1234@me.com>
 Architecture: all
-Filename: ./Ipks/neofetch_6.1.0-1_all.ipk
+Filename: ./Ipks/neofetch_7.0.0-1_all.ipk
 Description:  Neofetch is a command-line system information tool written in bash 3.2+.
  Neofetch displays information about your operating system, software and hardware in an
  aesthetic and visually pleasing way.
