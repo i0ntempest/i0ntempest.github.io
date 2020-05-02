@@ -103,5 +103,5 @@ License: GPL-2.0
 Section: net
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_mips32
-Installed-Size: 38449
+Filename: ./Ipks/iw_5.4-1_mipsel_mips32.ipk
 Description:  cfg80211 interface configuration utility
