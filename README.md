@@ -35,7 +35,7 @@ Packages not made by me:<br />
 ````
 More to be added<br />
 All my packages are built with lzma or gzip compression therefore can be installed on iOS 10-12.<br />
-Packages should work on iOS 10.x to 12.x unless explicitly stated in package description.<br />
+Packages should work on iOS 10.x to 13.x unless explicitly stated in package description.<br />
 Binaries will be in arm64 and armv7 archs if possible, otherwise it will be arm64 only.
 However do note that I only have one jailbroken device running iOS 13.5 and packages are tested there.
 ## Click this link:
