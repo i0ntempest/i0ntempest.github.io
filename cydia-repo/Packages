@@ -29,16 +29,16 @@ Depiction: https://repo.conorthedev.com/package/com.conorthedev.dragspring
 Icon: https://repo.conorthedev.com/img/dragspring.png
 
 Package: com.i0ntpst.arping
-Version: 2.20-2
+Version: 2.21-1
 Priority: standard
 Section: Networking
 Maintainer: i0nTempest <szf1234@me.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: libpcap1 | com.mc.libpcap, com.mc.libnet
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.arping_2.20-2_iphoneos-arm.deb
-Size: 19934
-MD5sum: 663b0972e7289d1229d18f580b91513d
+Filename: ./Debs///com.i0ntpst.arping_2.21-1_iphoneos-arm.deb
+Size: 23074
+MD5sum: 2aea21854704e311a85719340fb04e6f
 Description: ping but using ARP packets
 	Broadcasts a who-has ARP packet on the network and prints answers. VERY useful when you are trying to pick an unused IP for a net that you don't yet have routing to.
 	This package is compiled for arm64 and arm64e only, because I wasn't able to compile libpcap for arm architectures so I had to use pre-compiled ones.
@@ -47,6 +47,21 @@ Name: arping
 Author: Thomas Habets <thomas@habets.se>
 Homepage: http://www.habets.pp.se/synscan/programs.php?prog=arping
 Tag: purpose::console
+
+Package: com.i0ntpst.axel
+Version: 2.17.9-1
+Priority: optional
+Section: Networking
+Maintainer: i0nTempest <szf1234@me.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.1.1
+Architecture: iphoneos-arm
+Filename: ./Debs///com.i0ntpst.axel_2.17.9-1_iphoneos-arm.deb
+Size: 33152
+MD5sum: 311d3c68db1090fddd1e333fdc77a462
+Description: Light UNIX download accelerator
+Name: Axel
+Homepage: https://github.com/eribertomota/axel
 
 Package: com.i0ntpst.bash-completion
 Version: 2.9-1
@@ -58,9 +73,9 @@ Depends: bash
 Conflicts: com.mc.bash-completion, bash-completion
 Provides: com.mc.bash-completion, bash-completion
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.bash-completion_2.9-1_iphoneos-arm.deb
-Size: 152126
-MD5sum: d38559547848460be24c570d2afdb03e
+Filename: ./Debs///com.i0ntpst.bash-completion_2.10-1_iphoneos-arm.deb
+Size: 152022
+MD5sum: 325e7242ad2f3c5f1b43a89289e20a8f
 Description: Programmable completion for Bash
 	Programmable completion for Bash
 Name: Bash Completion

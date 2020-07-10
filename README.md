@@ -18,10 +18,11 @@ Packages compiled/made/modified by me:
     nano v4.9
     gettext v0.20.1
     neofetch v7.0.0
-    Bash Completion v2.9
-    arping v2.20
+    Bash Completion v2.10
+    arping v2.21
     dm.pl v1.2
     crunch v3.6
+    axel v2.17.9
 ````
 Packages not made by me:<br />
 (These are held here for convenience or the original source is no longer available.)
