@@ -64,7 +64,7 @@ Name: Axel
 Homepage: https://github.com/eribertomota/axel
 
 Package: com.i0ntpst.bash-completion
-Version: 2.10-1
+Version: 2.10-2
 Priority: optional
 Section: Terminal Support
 Maintainer: i0nTempest <szf1234@me.com>
@@ -73,9 +73,9 @@ Depends: bash
 Conflicts: com.mc.bash-completion, bash-completion
 Provides: com.mc.bash-completion, bash-completion
 Architecture: iphoneos-arm
-Filename: ./Debs///com.i0ntpst.bash-completion_2.10-1_iphoneos-arm.deb
-Size: 152024
-MD5sum: 95f539243c9b4ff1c19b645c44ce0bcb
+Filename: ./Debs///com.i0ntpst.bash-completion_2.10-2_iphoneos-arm.deb
+Size: 152016
+MD5sum: 1b6fcbd763ee19b52d6ae628867af149
 Description: Programmable completion for Bash
 	Programmable completion for Bash
 Name: Bash Completion
