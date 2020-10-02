@@ -1,10 +1,10 @@
 Package: nano
-Version: 4.8-1
+Version: 5.2-1
 Depends: libc, libncurses
 License: GPL-3.0-or-later
 Section: utils
 Architecture: mips_24kc
-Filename: ./Ipks/nano_4.8-1_mips_24kc.ipk
+Filename: ./Ipks/nano_5.2-1_mips_24kc.ipk
 Description:  Nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone of the Pico text editor.
 
 Package: aircrack-ng
@@ -69,12 +69,12 @@ Description:  Bash is an sh-compatible command language interpreter that execute
  incorporates useful features from the Korn and C shells (ksh and csh).
 
 Package: neofetch
-Version: 7.0.0-1
+Version: 7.1.0-1
 Depends: bash
 Section: utils
 Maintainer: i0nTempest <szf1234@me.com>
 Architecture: all
-Filename: ./Ipks/neofetch_7.0.0-1_all.ipk
+Filename: ./Ipks/neofetch_7.1.0-1_all.ipk
 Description:  Neofetch is a command-line system information tool written in bash 3.2+.
  Neofetch displays information about your operating system, software and hardware in an
  aesthetic and visually pleasing way.
